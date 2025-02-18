@@ -1,0 +1,514 @@
+.cover__ {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.frame-1707480425 {
+    padding: 80px 80px 80px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.radeem {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.undraw-social-friends-re-7-uaa-1-1 {
+    flex-shrink: 0;
+    width: 261.87px;
+    /* height: 191px; */
+    position: relative;
+}
+
+.frame-1707480271 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+}
+
+.redeem-your-code {
+    color: #151b4a;
+    text-align: center;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+
+.enter-your-code-to-redeem-your-points {
+    color: #1f1f26;
+    text-align: center;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+
+
+.frame-1707480406 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+}
+
+.inpute-code {
+    background: #d9efe3;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: #0b8a44;
+    border-width: 1px;
+    padding: 23px 24px 23px 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 44px;
+    overflow: hidden;
+}
+
+.inpute-code::placeholder {
+    color: #0B8A44;
+    text-align: center;
+}
+
+.inpute-code:focus-visible {
+    outline: none;
+    border: 1px solid #0b8a44;
+    text-align: center;
+}
+
+.enter-code-here {
+    color: #0b8a44;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.redeem-button {
+    background: #0b8a44;
+    border-radius: 24px;
+    padding: 23px 50px 23px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 44px;
+    position: relative;
+    overflow: hidden;
+}
+
+.redeem {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+
+/* Redeem Code */
+
+.frame-1707480430 {
+    background: #f4f8f9;
+    padding: 150px 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 80vh;
+    position: relative;
+}
+
+.frame-1707480264 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 520px;
+    position: relative;
+}
+
+.frame-1707480263 {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.undraw-social-friends-re-7-uaa-1-1_2 {
+    width: 261.87px;
+    margin-left: 60px;
+    /* height: 191px; */
+    position: relative;
+    overflow: hidden;
+}
+
+.freepik-floor-inject-17 {
+    width: 90.99%;
+    height: 43.71%;
+    position: absolute;
+    right: 4.31%;
+    left: 4.71%;
+    bottom: 1.75%;
+    top: 54.54%;
+    overflow: visible;
+}
+
+.frame-1707480262 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-1707480261 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 319px;
+    position: relative;
+}
+
+.congratulations {
+    color: #151b4a;
+    text-align: center;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+
+.you-have-just-earned-40 {
+    color: #151b4a;
+    text-align: center;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+
+.the-more-you-share-the-more-points-you-will-earn-don-t-waste-time {
+    color: #1f1f26;
+    text-align: center;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-1707480260 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    margin-bottom: 50px;
+}
+
+.frame-5433 {
+    background: #0b8a44;
+    border-radius: 24px;
+    padding: 23px 130px 23px 130px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 70%;
+    height: 46px;
+    position: relative;
+    overflow: hidden;
+}
+
+.share {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+
+@media (max-width:767px) {
+    .frame-1707480425 {
+        padding: 100px 10px 100px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        height: 80vh;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .frame-1707480272 {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .undraw-social-friends-re-7-uaa-1-1 {
+        flex-shrink: 0;
+        width: 261.87px;
+        /* height: 191px; */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .frame-1707480271 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .redeem-your-code {
+        color: #151b4a;
+        text-align: center;
+        font-family: "Poppins-Bold", sans-serif;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.36px;
+        font-weight: 700;
+        position: relative;
+    }
+
+    .enter-your-code-to-redeem-your-points {
+        color: #1f1f26;
+        text-align: center;
+        font-family: "Poppins-Regular", sans-serif;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.36px;
+        font-weight: 400;
+        position: relative;
+    }
+
+
+
+    .frame-1707480406 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        position: relative;
+    }
+
+    .inpute-code {
+        background: #d9efe3;
+        border-radius: 24px;
+        border-style: solid;
+        border-color: #0b8a44;
+        border-width: 1px;
+        padding: 23px 24px 23px 24px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 44px;
+        overflow: hidden;
+    }
+
+    .enter-code-here {
+        color: #0b8a44;
+        text-align: left;
+        font-family: "Poppins-Regular", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        position: relative;
+    }
+
+    .redeem-button {
+        background: #0b8a44;
+        border-radius: 24px;
+        padding: 23px 10px 23px 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 100%;
+        height: 44px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .redeem {
+        color: #ffffff;
+        text-align: left;
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        position: relative;
+    }
+
+    /* Redeem Code */
+    .frame-1707480262 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .radeem2 {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .frame-1707480261 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        width: 319px;
+        position: relative;
+    }
+
+    .undraw-social-friends-re-7-uaa-1-1_2 {
+        width: 261.87px;
+        margin-left: 60px;
+        /* height: 191px; */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .congratulations {
+        color: #151b4a;
+        text-align: center;
+        font-family: "Poppins-Bold", sans-serif;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.36px;
+        font-weight: 700;
+        position: relative;
+        align-self: stretch;
+    }
+
+    .you-have-just-earned-40 {
+        color: #151b4a;
+        text-align: center;
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.36px;
+        font-weight: 600;
+        position: relative;
+        align-self: stretch;
+    }
+
+    .the-more-you-share-the-more-points-you-will-earn-don-t-waste-time {
+        color: #1f1f26;
+        text-align: center;
+        font-family: "Poppins-Regular", sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.36px;
+        font-weight: 400;
+        position: relative;
+        align-self: stretch;
+    }
+
+    .frame-5433 {
+        background: #0b8a44;
+        border-radius: 24px;
+        padding: 23px 159px 23px 159px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        height: 46px;
+    }
+
+    .share {
+        color: #ffffff;
+        text-align: left;
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        position: relative;
+    }
+
+}

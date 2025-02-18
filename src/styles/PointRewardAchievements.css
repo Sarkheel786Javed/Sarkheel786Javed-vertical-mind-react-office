@@ -1,0 +1,641 @@
+.cover {
+    width: 100%;
+    padding: 80px 240px;
+}
+
+.heading {
+    margin-bottom: 100px;
+}
+
+.your-trophies2 {
+    color: #1f1f26;
+    text-align: center;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.all-your-awesome-trophies-are-displayed-here-something-to-brag-about {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-1707480203 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-1707480195 {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 30px 120px 30px 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 100%;
+    height: 340px;
+    position: relative;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+
+.frame-1707480190 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.diamond {
+    flex-shrink: 0;
+    width: 132px;
+    height: 132px;
+    position: relative;
+    overflow: hidden;
+}
+
+._377-converted-2 {
+    width: 132px;
+    height: 94.31px;
+    position: absolute;
+    left: 50%;
+    translate: -50% -50%;
+    top: 50%;
+    overflow: hidden;
+}
+
+.group {
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.frame-1707480188 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 32px;
+    position: relative;
+}
+
+.blue {
+    color: #1f1f26;
+    text-align: center;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 36px;
+    line-height: 34px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-1707480198 {
+    background: rgba(0, 130, 245, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 132px;
+    height: 40px;
+    position: relative;
+}
+
+.points-0 {
+    color: #0082f5;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+}
+
+.frame-1707480196 {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 30px 120px 30px 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 400px;
+    height: 340px;
+    position: relative;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+
+.frame-1707480191 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame {
+    flex-shrink: 0;
+    width: 130.94px;
+    height: 132px;
+    position: relative;
+    overflow: hidden;
+}
+
+.group2 {
+    width: 109.15%;
+    height: 108.27%;
+    position: absolute;
+    right: -4.64%;
+    left: -4.51%;
+    bottom: -3.93%;
+    top: -4.35%;
+    overflow: visible;
+}
+
+.group3 {
+    width: 52.89%;
+    height: 39%;
+    position: absolute;
+    right: 23.67%;
+    left: 23.44%;
+    bottom: 30.5%;
+    top: 30.5%;
+    overflow: visible;
+}
+
+.gold {
+    color: #1f1f26;
+    text-align: center;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 36px;
+    line-height: 34px;
+    font-weight: 600;
+    position: relative;
+    width: 114px;
+    height: 32px;
+}
+
+.frame-1707480199 {
+    background: rgba(241, 170, 43, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 132px;
+    height: 40px;
+    position: relative;
+}
+
+.points-02 {
+    color: #f1aa2b;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    position: relative;
+}
+
+.frame-1707480194 {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 30px 120px 30px 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 400px;
+    height: 340px;
+    position: relative;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+
+.frame-1707480192 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame2 {
+    flex-shrink: 0;
+    width: 131.02px;
+    height: 132px;
+    position: relative;
+    overflow: hidden;
+}
+
+.group4 {
+    height: auto;
+    position: absolute;
+    left: -27.13px;
+    top: -27.13px;
+    overflow: visible;
+}
+
+.silver2 {
+    color: #1f1f26;
+    text-align: center;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 36px;
+    line-height: 34px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+    height: 32px;
+}
+
+.frame-1707480200 {
+    background: rgba(113, 116, 132, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 132px;
+    height: 40px;
+    position: relative;
+}
+
+.points-03 {
+    color: #717484;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 500;
+    position: relative;
+}
+
+@media (max-width: 1440px) {
+    .cover {
+        width: 100%;
+        padding: 80px 150px;
+    }
+}
+@media (max-width:767px) {
+    .cover {
+        width: 100%;
+        padding: 80px 10px;
+    }
+
+    .frame-1707480403 {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .frame-1707480187 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .your-trophies {
+        color: #1f1f26;
+        text-align: center;
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 600;
+        position: relative;
+        align-self: stretch;
+        height: 36px;
+    }
+
+    .all-your-awesome-trophies-are-displayed-here-something-to-brag-about {
+        color: #1f1f26;
+        text-align: center;
+        font-family: "Poppins-Regular", sans-serif;
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 400;
+        position: relative;
+        width: 100%;
+    }
+
+    .frame-1707480195 {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 30px 120px 30px 120px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        height: 340px;
+        position: relative;
+        box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+    }
+
+    .frame-1707480190 {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .diamond {
+        flex-shrink: 0;
+        width: 132px;
+        height: 132px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    ._377-converted-2 {
+        width: 132px;
+        height: 94.31px;
+        position: absolute;
+        left: 50%;
+        translate: -50% -50%;
+        top: 50%;
+        overflow: hidden;
+    }
+
+    .group {
+        height: auto;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        overflow: visible;
+    }
+
+    .frame-1707480188 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        height: 32px;
+        position: relative;
+    }
+
+    .blue {
+        color: #1f1f26;
+        text-align: center;
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 36px;
+        line-height: 34px;
+        font-weight: 600;
+        position: relative;
+        align-self: stretch;
+    }
+
+    .frame-1707480198 {
+        background: rgba(0, 130, 245, 0.1);
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 132px;
+        height: 40px;
+        position: relative;
+    }
+
+    .points-0 {
+        color: #0082f5;
+        text-align: center;
+        font-family: "Poppins-Medium", sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .frame-1707480196 {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 30px 120px 30px 120px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        height: 340px;
+        position: relative;
+        box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+    }
+
+    .frame-1707480191 {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .frame {
+        flex-shrink: 0;
+        width: 130.94px;
+        height: 132px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .group2 {
+        width: 109.15%;
+        height: 108.27%;
+        position: absolute;
+        right: -4.64%;
+        left: -4.51%;
+        bottom: -3.93%;
+        top: -4.35%;
+        overflow: visible;
+    }
+
+    .group3 {
+        width: 52.89%;
+        height: 39%;
+        position: absolute;
+        right: 23.67%;
+        left: 23.44%;
+        bottom: 30.5%;
+        top: 30.5%;
+        overflow: visible;
+    }
+
+    .gold {
+        color: #1f1f26;
+        text-align: center;
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 36px;
+        line-height: 34px;
+        font-weight: 600;
+        position: relative;
+        width: 114px;
+        height: 32px;
+    }
+
+    .frame-1707480199 {
+        background: rgba(241, 170, 43, 0.1);
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 132px;
+        height: 40px;
+        position: relative;
+    }
+
+    .points-02 {
+        color: #f1aa2b;
+        text-align: center;
+        font-family: "Poppins-Medium", sans-serif;
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .frame-1707480194 {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 30px 120px 30px 120px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        height: 340px;
+        position: relative;
+        box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+    }
+
+    .frame-1707480192 {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .frame2 {
+        flex-shrink: 0;
+        width: 131.02px;
+        height: 132px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .group4 {
+        height: auto;
+        position: absolute;
+        left: -27.13px;
+        top: -27.13px;
+        overflow: visible;
+    }
+
+    .silver2 {
+        color: #1f1f26;
+        text-align: center;
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 36px;
+        line-height: 34px;
+        font-weight: 600;
+        position: relative;
+        align-self: stretch;
+        height: 32px;
+    }
+
+    .frame-1707480200 {
+        background: rgba(113, 116, 132, 0.1);
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 132px;
+        height: 40px;
+        position: relative;
+    }
+
+    .points-03 {
+        color: #717484;
+        text-align: center;
+        font-family: "Poppins-Medium", sans-serif;
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: 500;
+        position: relative;
+    }
+
+}

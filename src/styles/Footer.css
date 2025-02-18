@@ -1,0 +1,299 @@
+.footer {
+  background: #112f82;
+  padding: 48px 40px 48px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.column-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.updated-logo-vertical-minds-horizontal-logo-in-2-colora-2 {
+  flex-shrink: 0;
+  width: 277px;
+  height: 51px;
+  position: relative;
+  overflow: hidden;
+}
+
+.group {
+  width: 98.6%;
+  height: 76.39%;
+  position: absolute;
+  right: 0.7%;
+  left: -7.78%;
+  bottom: 11.78%;
+  top: 11.83%;
+  overflow: visible;
+}
+
+.frame-1707480106 {
+  flex-shrink: 0;
+  width: 306px;
+  height: 56px;
+  position: relative;
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit {
+  color: #f0f0f0;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 3px;
+  top: 0px;
+  width: 306px;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.social {
+  width: 171.98px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.Link-Items-active {
+  color: #70e259;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  position: relative;
+}
+
+.Link-Items-unactive {
+  color: #f0f0f0;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  position: relative;
+}
+
+a:hover {
+  color: #70e259;
+}
+
+@media (max-width:767px) {
+
+  .footer {
+    background: #112f82;
+    padding: 42px 40px 42px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .column-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .updated-logo-vertical-minds-horizontal-logo-in-2-colora-2 {
+    flex-shrink: 0;
+    width: 277px;
+    height: 51px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .group {
+    width: 98.6%;
+    height: 76.39%;
+    position: relative;
+    margin: 0.7% 0%;
+  }
+
+  .frame-1707480106 {
+    flex-shrink: 0;
+    width: 306px;
+    height: 56px;
+    position: relative;
+  }
+
+  .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit {
+    color: #f0f0f0;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    width: 306px;
+  }
+
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .social {
+    width: 171.98px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .Link-Items-active {
+    color: #70e259;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  .Link-Items-active:hover {
+    color: #70e259;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    position: relative;
+  }
+
+  .Link-Items-unactive {
+    color: #f0f0f0;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    position: relative;
+  }
+
+
+
+}

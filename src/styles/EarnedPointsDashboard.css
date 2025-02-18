@@ -1,0 +1,429 @@
+
+.frame-1707480426 {
+    background: #f4f8f9;
+    padding: 80px 200px 80px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 1004px;
+    /* overflow-x:scroll; */
+}
+
+.frame-1707480369 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.participation-summary {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+
+.tab-group {
+    border-style: solid;
+    border-color: rgba(111, 111, 111, 0.8);
+    border-width: 0px 0px 1px 0px;
+    flex-shrink: 0;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.line {
+    opacity: 0.3;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0px;
+    top: 39.5px;
+    overflow: visible;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    /* position: absolute; */
+    left: 0px;
+    top: 0px;
+    /* overflow: hidden; */
+}
+
+.active_tab {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: start;
+    flex-shrink: 0;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    color: #009146;
+    border-bottom: 3px solid #009146;
+
+}
+
+.unactive_tab {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: start;
+    flex-shrink: 0;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    color: #6f6f6f;
+
+}
+
+.line-height {
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 37px;
+    position: relative;
+    overflow: hidden;
+}
+
+.my-participations-summary2 {
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 500;
+    position: relative;
+}
+
+.participation-summary2 {
+    color: #151b4a;
+    text-align: left;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+
+/* participation summary */
+
+.frame-9 {
+    background: #ececec;
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 50px;
+    position: relative;
+}
+.frame-9_2 {
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 50px;
+    position: relative;
+}
+
+.frame-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.name {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    flex: 1;
+}
+
+.frame-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.grade {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    flex: 1;
+}
+
+.frame-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.attempt-challenge {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+.frame-7 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.total-challenge-points {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    flex: 1;
+}
+
+
+/* challange participation table  */
+
+.challenge-participation,
+.challenge-participation * {
+    box-sizing: border-box;
+}
+
+.challenge-participation {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+
+.challenge-participation2 {
+    color: #151b4a;
+    text-align: left;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 700;
+    position: relative;
+}
+
+.frame-1707480218 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+}
+
+.frame-9 {
+    background: #ececec;
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 50px;
+    position: relative;
+}
+
+.frame-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.challenge-id {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    flex: 1;
+}
+
+.frame-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.challenge-name {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    flex: 1;
+}
+
+.frame-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.grade {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+.frame-7 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.ranking {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    flex: 1;
+}
+
+.frame-8 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.points {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    flex: 1;
+}
+
+.frame-92 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+
+.result {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    flex: 1;
+}
+
+/* \end{code} */

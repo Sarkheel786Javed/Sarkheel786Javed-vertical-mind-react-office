@@ -1,0 +1,320 @@
+.frame-1707480440 {
+    background: #f4f8f9;
+    padding: calc(100% - 95%) calc(100% - 95%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+.frame-1707480438 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+}
+
+.benefit-reward-achievement {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+    padding-left: 12px;
+}
+
+@media (max-width:767px) {
+    .benefit-reward-achievement {
+        text-align: center;
+    }
+}
+
+.frame-1707480201 {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 30px 50px 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+
+.frame-1707480190 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.image {
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    object-fit: cover;
+}
+
+.frame-1707480387 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.fizup {
+    color: #1f1f26;
+    text-align: center;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 600;
+    position: relative;
+}
+
+.frame-1707480388 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottle-pack {
+    color: #6f6f6f;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 500;
+}
+
+._4-bottles {
+    color: #6f6f6f;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 500;
+    position: relative;
+}
+
+._30-points {
+    color: #0b8a44;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 500;
+    position: relative;
+}
+
+.Redeem_Benefits_button {
+    cursor: pointer;
+    background: #eaeaec;
+    border-radius: 62px;
+    padding: 10px 14px 10px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    color: #1f1f26;
+    transition: 0.3s ease-in;
+}
+
+.Redeem_Benefits_button:hover {
+    background: #0b8a44dd;
+    border-radius: 62px;
+    padding: 10px 14px 10px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    color: #ffffff;
+}
+
+.redeem-benefits {
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+/* offcanvas */
+
+.frame-1707480392 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-1707480379 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.radix-icons-cross-1 {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame-1707480238 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    position: absolute;
+    left: -7.07px;
+    top: -7.07px;
+    overflow: visible;
+}
+
+.frame-1707480391 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.diamond {
+    flex-shrink: 0;
+    width: 148px;
+    height: 148px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    object-fit: cover;
+}
+
+.frame-1707480389 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+}
+
+.next-cola {
+    color: #1e1d1c;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+
+.bottle-pack {
+    color: #6f6f6f;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 500;
+    position: relative;
+}
+
+._4-bottles {
+    color: #6f6f6f;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 500;
+    position: relative;
+}
+
+._30-points {
+    color: #0b8a44;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 500;
+    position: relative;
+}
+
+.frame-1707480390 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.line-48 {
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px 0 0 0;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 0px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+}
+
+.terms-conditions {
+    color: #1e1d1c;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
