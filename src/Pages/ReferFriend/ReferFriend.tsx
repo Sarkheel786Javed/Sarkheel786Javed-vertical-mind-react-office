@@ -21,7 +21,11 @@ function ReferFriend() {
               </div>
             </div>
             <div className="frame-1707480406">
-              <input className="inpute-code" type="text" placeholder="Enter code here" />
+              <input
+                className="inpute-code"
+                type="text"
+                placeholder="Enter code here"
+              />
 
               <div className="redeem-button" onClick={handleRedeem}>
                 <div className="redeem">Redeem</div>
@@ -38,7 +42,7 @@ function ReferFriend() {
                 <img src="assets/images/Coins-amico 1.svg" />
               </div>
               <div className="frame-1707480262">
-                <div className="frame-1707480261">
+                <div className="frame-1707480261-refer-friend">
                   <div className="congratulations">Congratulations!</div>
                   <div className="you-have-just-earned-40">
                     You have just earned $40

@@ -20,14 +20,13 @@ function Navbar() {
   ];
 
   useEffect(() => {
-    handleClose()
+    handleClose();
     if (path.includes(location.pathname)) {
       setHovered(true);
       setShowSubChild(false);
     } else {
       setShowSubChild(false);
       setHovered(false);
-      
     }
   }, [location.pathname]);
 
@@ -59,9 +58,9 @@ function Navbar() {
           </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <div className="offcanvas-content" >
-            <Link to="/" className="nav-item text-decoration-none" >
-              <div className="nav-item2" >
+          <div className="offcanvas-content">
+            <Link to="/" className="nav-item text-decoration-none">
+              <div className="nav-item2">
                 <div className="nav-item3">Dashboard</div>
               </div>
             </Link>
@@ -179,10 +178,7 @@ function Navbar() {
                       <div className="nav-item3">Refer Friend</div>
                     </div>
                   </NavLink>
-                  <NavLink
-                    to="/"
-                    className="nav-item text-decoration-none"
-                  >
+                  <NavLink to="/" className="nav-item text-decoration-none">
                     <div className="nav-item2">
                       <div className="nav-item3">Reward System Dashboard</div>
                     </div>
@@ -370,10 +366,7 @@ function Navbar() {
                     <div className="nav-item3">Refer Friend</div>
                   </div>
                 </NavLink>
-                <NavLink
-                  to="/"
-                  className="nav-item text-decoration-none"
-                >
+                <NavLink to="/" className="nav-item text-decoration-none">
                   <div className="nav-item2">
                     <div className="nav-item3">Reward System Dashboard</div>
                   </div>

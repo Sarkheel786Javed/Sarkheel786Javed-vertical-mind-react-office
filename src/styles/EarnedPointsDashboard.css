@@ -1,4 +1,3 @@
-
 .frame-1707480426 {
     background: #f4f8f9;
     padding: 80px 200px 80px 200px;
@@ -10,11 +9,12 @@
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
-    min-width: 1004px;
+    min-width: 100%;
     /* overflow-x:scroll; */
 }
 
 .frame-1707480369 {
+    background-color: rgba(255, 255, 255, 0);
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -48,7 +48,12 @@
     width: 100%;
     height: 40px;
     position: relative;
-    /* overflow: hidden; */
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.tab-group::-webkit-scrollbar {
+    display: none;
 }
 
 .line {
@@ -126,6 +131,10 @@
     position: relative;
 }
 
+/* participation summary */
+
+
+
 .participation-summary2 {
     color: #151b4a;
     text-align: left;
@@ -138,292 +147,281 @@
     align-self: stretch;
 }
 
-/* participation summary */
 
-.frame-9 {
-    background: #ececec;
-    border-radius: 4px;
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    flex-shrink: 0;
+#no-more-tables table,
+#no-more-tables table thead,
+#no-more-tables table tbody,
+#no-more-tables table tbody tr,
+#no-more-tables2 table,
+#no-more-tables2 table thead,
+#no-more-tables2 table tbody,
+#no-more-tables2 table tbody tr {
+    width: 100%;
+}
+
+#no-more-tables table thead th,
+#no-more-tables table tbody td {
+    width: calc(100% / 4);
+}
+
+#no-more-tables2 table thead th,
+#no-more-tables2 table tbody td {
+    width: calc(100% / 6);
+}
+
+#no-more-tables2 table,
+#no-more-tables table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+#no-more-tables2 table thead,
+#no-more-tables table thead {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    background-color: #ececec;
     height: 50px;
-    position: relative;
+    overflow: hidden;
 }
-.frame-9_2 {
-    border-radius: 4px;
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    flex-shrink: 0;
+
+#no-more-tables2 table thead tr th,
+#no-more-tables table thead tr th {
+    font-weight: 600;
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+}
+
+#no-more-tables2 table tbody tr td,
+#no-more-tables table tbody tr td {
+    font-weight: 400;
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
     height: 50px;
-    position: relative;
 }
 
-.frame-1 {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
+#no-more-tables2 td div,
+#no-more-tables td div {
+    text-align: start;
 }
 
-.name {
-    color: #1f1f26;
-    text-align: left;
-    font-family: "Poppins-SemiBold", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    position: relative;
-    flex: 1;
+#no-more-tables2 table thead tr th:first-child,
+#no-more-tables2 table thead tr td:first-child,
+#no-more-tables table thead tr th:first-child,
+#no-more-tables table thead tr td:first-child {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
 }
 
-.frame-2 {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: center;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
+#no-more-tables2 table thead tr th:last-child,
+#no-more-tables2 table thead tr td:last-child,
+#no-more-tables table thead tr th:last-child,
+#no-more-tables table thead tr td:last-child {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
 }
 
-.grade {
-    color: #1f1f26;
-    text-align: left;
-    font-family: "Poppins-SemiBold", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    position: relative;
-    flex: 1;
-}
-
-.frame-4 {
-    display: flex;
-    flex-direction: row;
-    gap: 7px;
-    align-items: center;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
-}
-
-.attempt-challenge {
-    color: #1f1f26;
-    text-align: left;
-    font-family: "Poppins-SemiBold", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    position: relative;
-}
-
-.frame-7 {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
-}
-
-.total-challenge-points {
-    color: #1f1f26;
-    text-align: left;
-    font-family: "Poppins-SemiBold", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    position: relative;
-    flex: 1;
+#no-more-tables2  .pad {
+    padding-left: 10px;
 }
 
 
-/* challange participation table  */
 
-.challenge-participation,
-.challenge-participation * {
-    box-sizing: border-box;
-}
-
-.challenge-participation {
-    background: #ffffff;
-    border-radius: 24px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
-}
-
-.challenge-participation2 {
+.participation-summary2 {
     color: #151b4a;
     text-align: left;
-    font-family: "Poppins-Bold", sans-serif;
+    font-family: Poppins-Bold, sans-serif;
     font-size: 24px;
     line-height: 28px;
-    letter-spacing: 0.36px;
+    letter-spacing: .36px;
     font-weight: 700;
     position: relative;
+    align-self: stretch;
 }
 
-.frame-1707480218 {
+.participation-summary_2 {
+    width: 100%;
+}
+
+.participation-summary_2_child {
+    padding: 16px 10px;
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 100%;
-    position: relative;
-}
-
-.frame-9 {
-    background: #ececec;
-    border-radius: 4px;
-    padding: 16px;
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
+    gap: 32px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     align-self: stretch;
     flex-shrink: 0;
-    height: 50px;
     position: relative;
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 30px;
 }
 
-.frame-1 {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
+@media (max-width:1300px) {
+    .frame-1707480426 {
+        background: #f4f8f9;
+        padding: 80px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        min-width: 100%;
+        /* overflow-x:scroll; */
+    }
+
+    .pad {
+        padding-left: 10px;
+    }
+
 }
 
-.challenge-id {
-    color: #1f1f26;
-    text-align: left;
-    font-family: "Poppins-SemiBold", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    position: relative;
-    flex: 1;
-}
+@media (max-width:767px) {
+    .frame-1707480426 {
+        background: #f4f8f9;
+        padding: 80px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        min-width: 100%;
+        /* overflow-x:scroll; */
+    }
 
-.frame-2 {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: center;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
-}
+    /* /////////////table ////////////////// */
+    #no-more-tables2 table thead th,
+    #no-more-tables2 table tbody td,
+    #no-more-tables table thead th,
+    #no-more-tables table tbody td {
+        width: 100%;
+    }
 
-.challenge-name {
-    color: #1f1f26;
-    text-align: left;
-    font-family: "Poppins-SemiBold", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    position: relative;
-    flex: 1;
-}
+    #no-more-tables2 table thead,
+    #no-more-tables table thead {
+        height: auto;
+        background-color: none;
+    }
 
-.frame-4 {
-    display: flex;
-    flex-direction: row;
-    gap: 7px;
-    align-items: center;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
-}
+    .pad {
+        padding-left: 0px;
+    }
 
-.grade {
-    color: #1f1f26;
-    text-align: left;
-    font-family: "Poppins-SemiBold", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    position: relative;
-}
+    #no-more-tables2 table thead,
+    #no-more-tables table thead {
+        border-top-left-radius: 4px !important;
+        border-bottom-left-radius: 4px !important;
+        border-top-right-radius: 4px !important;
+        border-bottom-right-radius: 4px !important;
+        background-color: #ececec;
+        height: 0px;
+        overflow: hidden;
+    }
 
-.frame-7 {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
-}
+    #no-more-tables2 table tbody td,
+    #no-more-tables table tbody td {
+        text-align: end;
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 12px;
+        height: 21px;
+    }
 
-.ranking {
-    color: #1f1f26;
-    text-align: left;
-    font-family: "Poppins-SemiBold", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    position: relative;
-    flex: 1;
-}
 
-.frame-8 {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
-}
+    #no-more-tables2 tbody,
+    #no-more-tables2 tr,
+    #no-more-tables2 td,
+    #no-more-tables tbody,
+    #no-more-tables tr,
+    #no-more-tables td {
+        display: block;
+        padding-left: 0px;
+    }
 
-.points {
-    color: #1f1f26;
-    text-align: left;
-    font-family: "Poppins-SemiBold", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    position: relative;
-    flex: 1;
-}
+    #no-more-tables2 thead tr,
+    #no-more-tables thead tr {
+        position: absolute;
+        top: -999px;
+        left: -9999px;
+        margin-bottom: 20px;
+    }
 
-.frame-92 {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex: 1;
-    position: relative;
-}
+    #no-more-tables2 td,
+    #no-more-tables td {
+        position: relative;
+        /* min-width: 300px; */
+        padding-left: 50%;
+        border: none;
+        text-align: end;
+    }
 
-.result {
-    color: #1f1f26;
-    text-align: left;
-    font-family: "Poppins-SemiBold", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    position: relative;
-    flex: 1;
+    #no-more-tables2 td div,
+    #no-more-tables td div {
+        text-align: end;
+    }
+
+    #no-more-tables2 td:before,
+    #no-more-tables td:before {
+        content: attr(data-title);
+        position: absolute;
+        left: 6px;
+        font-weight: bold;
+    }
+
+    /* /////////////////////////////// */
+
+    .participation-summary2 {
+        color: #151b4a;
+        text-align: left;
+        font-family: Poppins-Bold, sans-serif;
+        font-size: 19px;
+        line-height: 28px;
+        letter-spacing: .36px;
+        font-weight: 700;
+        position: relative;
+        align-self: stretch;
+    }
+
+    .participation-summary_2 {
+        background: #ffffff;
+        border-radius: 8px;
+        box-shadow: none;
+        padding: 10px 20px;
+    }
+
+    .participation-summary_2_child {
+        padding: 16px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        background-color: #F5F7FA;
+        border-radius: 8px;
+    }
+
+    .frame-1707480369 {
+        background-color: #ffffff;
+        border-radius: 8px;
+    }
+
+    .participation-summary {
+        box-shadow: none;
+    }
 }
 
 /* \end{code} */

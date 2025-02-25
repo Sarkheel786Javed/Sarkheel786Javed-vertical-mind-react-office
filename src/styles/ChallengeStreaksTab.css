@@ -1,0 +1,1123 @@
+.page_wrapper-daily-streaks {
+    width: 100%;
+    position: relative;
+}
+
+.daily-streaks {
+    color: var(--primary-darker, #151b4a);
+    text-align: left;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 700;
+    position: relative;
+}
+
+
+.scroll {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.frame-1707480223-daily-streaks-tab {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 100%;
+}
+
+.frame-1707480220-daily-streaks-tab {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-17074802232-daily-streaks-tab {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+
+.frame-1707480190-daily-streaks-tab {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+
+.frame-1707480188-daily-streaks-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 32px;
+    position: relative;
+}
+
+.status-daily-streaks-tab {
+    color: var(--primary-darker, #151b4a);
+    text-align: left;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 700;
+    position: relative;
+}
+
+.frame-1707480268-daily-streaks-tab {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.ellipse-454-daily-streaks-tab {
+    background: #fff100;
+    border-radius: 50%;
+    /* border-style: solid;
+    border-color: #1f1f26;
+    border-width: 1px; */
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+
+.incomplete-daily-streaks-tab {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480226-daily-streaks-tab {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.earned-points-daily-streaks-tab {
+    color: var(--primary-darker, #151b4a);
+    text-align: left;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 700;
+    position: relative;
+}
+
+._440-440-daily-streaks-tab {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480272-daily-streaks-tab {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+/* scroll */
+.streak_cover {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.frame-1707480195-daily-strek-tab {
+    background: #f4f8f9;
+    border-radius: 16px;
+    padding: 30px 50px 30px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 340px;
+    width: 227px;
+    position: relative;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.12);
+}
+
+.frame-1707480190 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+
+/* progressbar  don't touch this css */
+.round-progress-bar {
+    position: relative;
+    display: inline-block;
+}
+
+.round-progress-bar .center_of_bar {
+    position: relative;
+}
+
+.round-progress-bar .progress {
+    transition: stroke-dashoffset 0.5s ease;
+}
+
+
+.round-progress-bar .frame-1707480270 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 41px;
+    left: 41px;
+}
+
+.round-progress-bar .frame-1707480190 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-1707480188-round-progress-bar {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 32px;
+    position: relative;
+}
+
+.round-progress-bar .day {
+    color: var(--primary-darker, #151b4a);
+    text-align: left;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.36px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.round-progress-bar ._1-45 {
+    color: #151b4a;
+    text-align: center;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+}
+
+/* progressbar end  */
+
+.frame-17074801882 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 32px;
+    position: relative;
+}
+
+.level-1 {
+    color: #1e1d1c;
+    text-align: center;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-1707480191 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 32px;
+    position: relative;
+}
+
+._01-dec-24-14-jan-25 {
+    color: #1e1d1c;
+    text-align: center;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+/* Carousel */
+/* Carousel */
+.carousel_cover {
+    width: calc(100% - 247px);
+    flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-inner-daily-streaks {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 350px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-controls-1 {
+    display: flex;
+    gap: 10px;
+}
+
+.carousel-controls-2 {
+    display: none;
+}
+
+.carousel-controls-1 button {
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.carousel-controls-1 button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.cards-container-daily-streaks {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 227px;
+    height: 350px;
+}
+
+.frame-1707480205-daily-streaks {
+    background: #f4f8f9;
+    border-radius: 16px;
+    padding: 30px 50px 30px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 227px;
+    height: 340px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.12);
+    min-width: calc((100% - 40px) / 3);
+    /* Adjust based on cardsPerPage */
+}
+
+.frame-1707480190-daily-streaks {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.frame-1707480188-daily-streaks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 32px;
+    position: relative;
+}
+
+.day-daily-streaks {
+    color: #1e1d1c;
+    text-align: center;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+
+.day-daily-streaks-2 {
+    color: #717484;
+    text-align: center;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+
+.button-upgrade-now-daily-streaks {
+    background: #d9efe3;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: #009146;
+    border-width: 0.4px;
+    padding: 4px 16px 4px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 132px;
+    height: 40px;
+    position: relative;
+}
+
+.claimed-daily-streaks {
+    color: #009146;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-upgrade-now-2 {
+    background: #f1f1f3;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: #717484;
+    border-width: 0.4px;
+    padding: 4px 16px 4px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 132px;
+    height: 40px;
+    position: relative;
+}
+
+.claimed-daily-streaks-2 {
+    color: #717484;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-1707480211 {
+    background: #0b8a44;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: auto;
+    height: 44px;
+    position: relative;
+    cursor: pointer;
+}
+
+.frame-1707480211:hover {
+    background: #0b8a44db;
+    border-radius: 24px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: auto;
+    height: 44px;
+    position: relative;
+}
+
+.frame-1707480213 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+}
+
+.view-history_daily_streak {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+/* view history  */
+
+.Offcanvas_daily_streak-challenge-streak {
+    width: 75%;
+}
+
+.frame-1707480274_view_history-challenge-streak {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    min-width:  1306px;
+}
+
+.cancel-daily-streak-challenge-streak {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    cursor: pointer;
+}
+
+.frame-1707480394-challenge-streak {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.streak-history-challenge-streak {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-1707480261-challenge-streak {
+    background: #ffffff;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: #6a6a6a;
+    border-width: 1px;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+}
+
+.frame-1707480218-challenge-streak {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.frame-1707480223-challenge-streak {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.frame-1707480332-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.log-in-points-challenge-streak {
+    color: var(--primary-darker, #151b4a);
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 600;
+    position: relative;
+}
+.log-in-points-challenge-streak {
+    color: var(--primary-darker, #151b4a);
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 600;
+    position: relative;
+}
+
+.frame-1707480268-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+._50-challenge-streak {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480333-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.level-points-challenge-streak {
+    color: var(--primary-darker, #151b4a);
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 600;
+    position: relative;
+    width: auto;
+    height: 28px;
+}
+
+.frame-1707480334-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.bonus-points-challenge-streak {
+    color: var(--primary-darker, #151b4a);
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 600;
+    position: relative;
+}
+
+.frame-9-challenge-streak {
+    background: #ececec;
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 50px;
+    position: relative;
+}
+
+.frame-9-challenge-streak-body {
+    background: #ececec00;
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 50px;
+    position: relative;
+}
+
+.frame-1-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 162px;
+    position: relative;
+}
+
+.number-of-attempt-challenge-streak {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+.number-of-attempt-challenge-streak-body {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-2-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 180px;
+    position: relative;
+}
+
+.start-date-challenge-streak {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    flex: 1;
+}
+
+.frame-4-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 184px;
+    position: relative;
+}
+
+.end-date-challenge-streak {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+
+.frame-7-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100px;
+    position: relative;
+}
+
+.status-challenge-streak {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+
+.frame-8-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 70px;
+    position: relative;
+}
+
+.days-challenge-streak {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+
+.frame-92-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100px;
+    position: relative;
+}
+
+.earned-points-challenge-streak {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+
+.frame-1707480217-challenge-streak {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-10-challenge-streak {
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 7px 16px 7px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 50px;
+    position: relative;
+}
+
+._1-challenge-streak {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    width: 144px;
+}
+
+.frame-22-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 170px;
+    position: relative;
+}
+
+._7-dec-2024-at-05-51-pm-challenge-streak {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-82-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100px;
+    position: relative;
+}
+
+.in-progress-challenge-streak {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-93-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 0px;
+    position: relative;
+}
+
+.div-challenge-streak {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-102-challenge-streak {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 80px;
+    position: relative;
+}
+
+
+
+@media (max-width:767px) {
+    .frame-1707480223-daily-streaks-tab {
+        padding: 30px 0px;
+    }
+    .frame-1707480226-daily-streaks-tab {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-shrink: 0;
+        position: relative;
+    }
+    .frame-17074802232-daily-streaks-tab {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+    }
+
+    .status-daily-streaks-tab {
+        color: var(--primary-darker, #151b4a);
+        text-align: left;
+        font-family: "Poppins-Bold", sans-serif;
+        font-size: 13px;
+        line-height: 28px;
+        letter-spacing: 0.26px;
+        font-weight: 600;
+        position: relative;
+    }
+
+    .carousel-inner-daily-streaks {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        height: 350px;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .cards-container-daily-streaks {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+        width: 227px;
+        height: 320px;
+    }
+
+    .frame-1707480205-daily-streaks {
+        background: #f4f8f9;
+        border-radius: 16px;
+        padding: 30px 50px 30px 50px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 162px;
+        height: 320px;
+        box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.12);
+        min-width: calc((100% - 40px) / 3);
+        /* Adjust based on cardsPerPage */
+    }
+
+    .earned-points-daily-streaks-tab {
+        color: var(--primary-darker, #151b4a);
+        text-align: left;
+        font-family: "Poppins-Bold", sans-serif;
+        font-size: 13px;
+        line-height: 28px;
+        letter-spacing: 0.26px;
+        font-weight: 600;
+        position: relative;
+    }
+
+    .carousel-controls-1 {
+        display: none;
+    }
+
+    .carousel-controls-2 {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .carousel-controls-2 button {
+        cursor: pointer;
+        border-radius: 50px;
+    }
+
+    .carousel-controls-2 button:disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+    .frame-1707480190-daily-streaks-tab {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+
+    .streak_cover {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        position: relative;
+    }
+
+    .carousel_cover {
+        width: 100%;
+        flex-shrink: 0;
+        height: 340px;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+}

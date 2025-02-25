@@ -1,0 +1,233 @@
+.frame-1707480282,
+.frame-1707480282 * {
+  box-sizing: border-box;
+}
+
+.frame-1707480282_PointSummaryTab {
+  width: 100%;
+  background: #ffffff;
+  padding: 40px 0;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.frame-1707480258_PointSummaryTab {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 330px;
+  height: 262px;
+  position: relative;
+}
+
+.frame_PointSummaryTab_PointSummaryTab {
+  flex-shrink: 0;
+  width: 347.33px;
+  height: 179.8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group_PointSummaryTab_PointSummaryTab {
+  width: 347.33px;
+  height: 179.8px;
+  overflow: visible;
+}
+
+.total-earning-points-440490_PointSummaryTab {
+  color: #151b4a;
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+
+.total-earning-points-440490-span_PointSummaryTab {
+  color: #151b4a;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.total-earning-points-440490-span2_PointSummaryTab {
+  color: #151b4a;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+/* section two  */
+
+.frame-1707480281_PointSummaryTab {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.earned-points_PointSummaryTab {
+  color: #151b4a;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.36px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+
+
+/* table responsiveness  */
+
+
+#PointSummaryTab table,
+#PointSummaryTab table thead,
+#PointSummaryTab table tbody,
+#PointSummaryTab table tbody tr {
+  width: 100%;
+}
+
+#PointSummaryTab table thead th,
+#PointSummaryTab table tbody td {
+  width: calc(100% / 5);
+}
+
+#PointSummaryTab table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+#PointSummaryTab table thead {
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  background-color: #ececec;
+  height: 50px;
+  overflow: hidden;
+}
+
+#PointSummaryTab table thead tr thead th {
+  font-weight: 600;
+  color: #1f1f26;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 16px;
+}
+
+#PointSummaryTab table thead tr tbody td {
+  font-weight: 600;
+  color: #1f1f26;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 16px;
+}
+
+#PointSummaryTab table thead tr th:first-child,
+#PointSummaryTab table thead tr td:first-child {
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+}
+
+#PointSummaryTab table thead tr th:last-child,
+#PointSummaryTab table thead tr td:last-child {
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+}
+
+#PointSummaryTab .pad {
+  padding-left: 10px;
+}
+
+#PointSummaryTab table tbody td {
+  text-align: start;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 16px;
+  height: 50px;
+}
+
+#PointSummaryTab table tbody tr:nth-child(2n) {
+  background-color: #F5F7FA;
+}
+
+@media (max-width:1035px) {
+  .frame_PointSummaryTab {
+    flex-shrink: 0;
+    width: 283.64px;
+    height: 165.67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .group_PointSummaryTab {
+    width: 283.64px;
+    height: 165.67px;
+    overflow: visible;
+  }
+
+  #PointSummaryTab table thead th,
+  #PointSummaryTab table tbody td {
+    width: 100%;
+  }
+
+  #PointSummaryTab table thead {
+    height: auto;
+    background-color: none;
+  }
+
+  #PointSummaryTab .pad {
+    padding: 0px;
+  }
+
+  #PointSummaryTab table tbody td {
+    text-align: end;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 12px;
+    height: 21px;
+    margin-bottom: 14px;
+  }
+
+  #PointSummaryTab table tbody tr:nth-child(2n) {
+    background-color: #F5F7FA;
+    border-radius: 8px;
+  }
+
+  #PointSummaryTab tbody,
+  #PointSummaryTab tr,
+  #PointSummaryTab td {
+    display: block;
+    padding: 10px;
+  }
+
+  #PointSummaryTab thead tr {
+    position: absolute;
+    top: -999px;
+    left: -9999px;
+  }
+
+  #PointSummaryTab td {
+    position: relative;
+    padding-left: 30%;
+    border: none;
+  }
+
+  #PointSummaryTab td:before {
+    content: attr(data-title);
+    position: absolute;
+    left: 6px;
+    font-weight: bold;
+  }
+}

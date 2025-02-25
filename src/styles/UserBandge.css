@@ -108,7 +108,7 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    width: 232px;
+    width: auto;
     height: 44px;
     position: relative;
 }
@@ -161,7 +161,6 @@
 
 .table_header {
     background: #e1e1e1;
-    border-radius: 4px !important;
     padding: 16px;
     height: 50px;
 }
@@ -212,7 +211,7 @@
     position: relative;
 }
 
-.frame-1707480208 {
+.frame-1707480208_user_badge {
     background: #f0f0f0;
     cursor: pointer;
     border-radius: 24px;
@@ -227,7 +226,7 @@
     position: relative;
 }
 
-.edit {
+.edit_user_badge {
     color: #112f82;
     text-align: left;
     font-family: "Poppins-Regular", sans-serif;
@@ -267,6 +266,7 @@
     flex-shrink: 0;
     height: 32px;
     position: relative;
+    cursor: pointer;
 }
 
 .delete {
@@ -764,8 +764,8 @@
     font-size: 14px;
     font-weight: 500;
     position: relative;
-  }
-  
+}
+
 
 .Save {
     background: #0b8a44;

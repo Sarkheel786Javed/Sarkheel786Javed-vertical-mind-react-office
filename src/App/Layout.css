@@ -1,3 +1,5 @@
 #content_fo_child{
     min-height: calc(100vh - 319px);
+    width: 100%;
+    overflow-x: auto;
 }

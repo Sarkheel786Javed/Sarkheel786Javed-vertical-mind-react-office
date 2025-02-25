@@ -13,7 +13,7 @@ function PointRewardAchievements() {
           </div>
 
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 p-3">
-            <div className="frame-1707480195">
+            <div className="frame-1707480195-point-reward-achivement">
               <div className="frame-1707480190">
                 <img src="assets/images/diamond_reward.svg" />
 
@@ -27,7 +27,7 @@ function PointRewardAchievements() {
             </div>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 p-3">
-            <div className="frame-1707480195">
+            <div className="frame-1707480195-point-reward-achivement">
               <div className="frame-1707480190">
                 <img src="assets/images/gold_reward.svg" />
                 <div className="gold">Gold</div>
@@ -38,7 +38,7 @@ function PointRewardAchievements() {
             </div>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 p-3">
-            <div className="frame-1707480195">
+            <div className="frame-1707480195-point-reward-achivement">
               <div className="frame-1707480190">
                 <img src="assets/images/silver_reward.svg" />
                 <div className="silver2">Silver</div>

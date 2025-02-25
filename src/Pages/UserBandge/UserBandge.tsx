@@ -167,7 +167,7 @@ function UserBandage() {
 
                     <div className="table-responsive w-100">
                       <table className="Table w-100">
-                        <thead className="table_header rounded-1">
+                        <thead className="table_header">
                           <tr>
                             <th
                               scope="col"
@@ -228,10 +228,10 @@ function UserBandage() {
                               <label className="">
                                 <div className="frame-1707480216">
                                   <div
-                                    className="frame-1707480208"
+                                    className="frame-1707480208_user_badge"
                                     onClick={handleShow}
                                   >
-                                    <div className="edit">Edit</div>
+                                    <div className="edit_user_badge">Edit</div>
                                     <div className="edit2">
                                       <img
                                         className="group"
@@ -271,10 +271,10 @@ function UserBandage() {
                               <label className="">
                                 <div className="frame-1707480216">
                                   <div
-                                    className="frame-1707480208"
+                                    className="frame-1707480208_user_badge"
                                     onClick={handleShow}
                                   >
-                                    <div className="edit">Edit</div>
+                                    <div className="edit_user_badge">Edit</div>
                                     <div className="edit2">
                                       <img
                                         className="group"
@@ -314,10 +314,10 @@ function UserBandage() {
                               <label className="">
                                 <div className="frame-1707480216">
                                   <div
-                                    className="frame-1707480208"
+                                    className="frame-1707480208_user_badge"
                                     onClick={handleShow}
                                   >
-                                    <div className="edit">Edit</div>
+                                    <div className="edit_user_badge">Edit</div>
                                     <div className="edit2">
                                       <img
                                         className="group"
@@ -356,16 +356,19 @@ function UserBandage() {
           backdrop="static"
           backdropClassName="backtrop_fade_color"
         >
-          <Offcanvas.Body>
-            {/* onClick={handleClose} */}
-            <div className="frame-1707480452">
-              <button
+          <Offcanvas.Header>
+          <button
                 className="btn p-1  text-reset"
                 type="button"
                 onClick={handleClose}
               >
                 <img src="assets/images/radix-icons_cross-1.svg" />
               </button>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+            {/* onClick={handleClose} */}
+            <div className="frame-1707480452">
+
               <div className="add-user-badge_offconvax">Add User Badge</div>
               <div className="frame-1707480234">
                 <div className="w-100">

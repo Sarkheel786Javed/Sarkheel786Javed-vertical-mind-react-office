@@ -1,10 +1,131 @@
 import { useState } from "react";
 import "../../styles/EarnedPointsDashboard.css";
 import PointSummaryTab from "../PointSummaryTab/PointSummaryTab.tsx";
+import ReferFriendTab from "../ReferFriendTab/ReferFriendTab.tsx";
+import DailyStreaksTab from "../DailyStreaksTab/DailyStreaksTab.tsx";
+import ChallengeStreaksTab from "../ChallengeStreaksTab/ChallengeStreaksTab.tsx";
+interface User {
+  name: string;
+  grade: number;
+  AttemptChallenge: number;
+  TotalChallengePoints: number;
+}
+interface User2 {
+  ChallengeID: string;
+  ChallengeName: string;
+  Grade: number;
+  Ranking: string;
+  Points: number;
+  Result: string;
+}
+
 function EarnedPointsDashboard() {
   const [tab, setTab] = useState<string>("my-participations-summary");
   const TabNavigate = (name: string) => {
     setTab(name);
+  };
+  const [users] = useState<User[]>([
+    {
+      name: "Ali 003",
+      grade: 5,
+      AttemptChallenge: 1,
+      TotalChallengePoints: 99,
+    },
+  ]);
+  const [users2] = useState<User2[]>([
+    {
+      ChallengeID: "--",
+      ChallengeName: "Challenge test",
+      Grade: 10,
+      Ranking: "-1/3 (Rank : 1)",
+      Points: 1,
+      Result: "View",
+    },
+  ]);
+
+  const TableComponent1 = () => {
+    return (
+      <>
+        <div className="w-100" id="no-more-tables">
+          <table className="">
+            <thead>
+              <tr>
+                <th className="pad">Name</th>
+                <th>Grade</th>
+                <th>Attempt Challenge</th>
+                <th>T.Challenge points</th>
+              </tr>
+            </thead>
+            <tbody>
+              {users.map((item: User) => (
+                <>
+                  <tr>
+                    <td data-title="Name" className="pad">
+                      <div>{item.name}</div>
+                    </td>
+                    <td data-title="Grade">
+                      <div>{item.grade}</div>
+                    </td>
+                    <td data-title="Attempt Challenge">
+                      <div>{item.AttemptChallenge}</div>
+                    </td>
+                    <td data-title="T.Challenge points">
+                      <div>{item.TotalChallengePoints}</div>
+                    </td>
+                  </tr>
+                </>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </>
+    );
+  };
+  const TableComponent2 = () => {
+    return (
+      <>
+        <div className="w-100" id="no-more-tables2">
+          <table className="">
+            <thead>
+              <tr>
+                <th className="pad">ID</th>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>Ranking</th>
+                <th>Points</th>
+                <th>Result</th>
+              </tr>
+            </thead>
+            <tbody>
+              {users2.map((item: User2) => (
+                <>
+                  <tr>
+                    <td data-title="Challenge ID" className="pad">
+                      <div>{item.ChallengeID}</div>
+                    </td>
+                    <td data-title="Name">
+                      <div>{item.ChallengeName}</div>
+                    </td>
+                    <td data-title="Grade">
+                      <div>{item.Grade}</div>
+                    </td>
+                    <td data-title="Ranking">
+                      <div>{item.Ranking}</div>
+                    </td>
+                    <td data-title="Points">
+                      <div>{item.Points}</div>
+                    </td>
+                    <td data-title="Result">
+                      <div>{item.Result}</div>
+                    </td>
+                  </tr>
+                </>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </>
+    );
   };
   return (
     <div>
@@ -90,42 +211,7 @@ function EarnedPointsDashboard() {
                 <div className="participation-summary2">
                   Participation Summary
                 </div>
-                <div className="w-100 overflow-x-auto">
-                  <div className="frame-1707480218">
-                    <div className="frame-9">
-                      <div className="frame-1">
-                        <div className="name">Name</div>
-                      </div>
-                      <div className="frame-2">
-                        <div className="grade">Grade</div>
-                      </div>
-                      <div className="frame-4">
-                        <div className="attempt-challenge">
-                          Attempt Challenge
-                        </div>
-                      </div>
-                      <div className="frame-7">
-                        <div className="total-challenge-points">
-                          Total Challenge points
-                        </div>
-                      </div>
-                    </div>
-                    <div className="frame-9_2 bg-none">
-                      <div className="frame-1">
-                        <div className="name">Reward system student 1</div>
-                      </div>
-                      <div className="frame-2">
-                        <div className="grade">--</div>
-                      </div>
-                      <div className="frame-4">
-                        <div className="attempt-challenge">1</div>
-                      </div>
-                      <div className="frame-7">
-                        <div className="total-challenge-points">50</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <TableComponent1 />
               </>
             )}
             {tab === "point-summary-tab" && (
@@ -133,58 +219,30 @@ function EarnedPointsDashboard() {
                 <PointSummaryTab />
               </>
             )}
+            {tab === "refer-friend" && (
+              <>
+                <ReferFriendTab />
+              </>
+            )}
+            {tab === "daily-streaks" && (
+              <>
+                <DailyStreaksTab />
+              </>
+            )}
+            {tab === "challenge-streak" && (
+              <>
+                <ChallengeStreaksTab />
+              </>
+            )}
           </div>
           {tab === "my-participations-summary" && (
             <>
-              <div className="challenge-participation">
-                <div className="challenge-participation2">
-                  Challenge Participation
-                </div>
-                <div className="w-100 overflow-x-auto">
-                  <div className="frame-1707480218">
-                    <div className="frame-9">
-                      <div className="frame-1">
-                        <div className="challenge-id">Challenge ID</div>
-                      </div>
-                      <div className="frame-2">
-                        <div className="challenge-name">Challenge Name</div>
-                      </div>
-                      <div className="frame-4">
-                        <div className="grade">Grade</div>
-                      </div>
-                      <div className="frame-7">
-                        <div className="ranking">Ranking</div>
-                      </div>
-                      <div className="frame-8">
-                        <div className="points">Points</div>
-                      </div>
-                      <div className="frame-92">
-                        <div className="result">Result</div>
-                      </div>
-                    </div>
-                    <div className="frame-9_2">
-                      <div className="frame-1">
-                        <div className="challenge-id">--</div>
-                      </div>
-                      <div className="frame-2">
-                        <div className="challenge-name">
-                          Challenge for testing
-                        </div>
-                      </div>
-                      <div className="frame-4">
-                        <div className="grade">10th</div>
-                      </div>
-                      <div className="frame-7">
-                        <div className="ranking">-1/3 (Rank : 1)</div>
-                      </div>
-                      <div className="frame-8">
-                        <div className="points">50</div>
-                      </div>
-                      <div className="frame-92">
-                        <div className="result">View</div>
-                      </div>
-                    </div>
+              <div className="participation-summary_2 ">
+                <div className="participation-summary_2_child">
+                  <div className="participation-summary2">
+                    Challenge Participation
                   </div>
+                  <TableComponent2 />
                 </div>
               </div>
             </>

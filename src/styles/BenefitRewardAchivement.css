@@ -1,4 +1,4 @@
-.frame-1707480440 {
+.frame-1707480440-BenefitRewardAchivement {
     background: #f4f8f9;
     padding: calc(100% - 95%) calc(100% - 95%);
     display: flex;
@@ -12,7 +12,7 @@
 }
 
 
-.frame-1707480438 {
+.frame-1707480438-BenefitRewardAchivement {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -23,7 +23,7 @@
     position: relative;
 }
 
-.benefit-reward-achievement {
+.benefit-reward-achievement-BenefitRewardAchivement {
     color: #1f1f26;
     text-align: left;
     font-family: "Poppins-SemiBold", sans-serif;
@@ -36,12 +36,12 @@
 }
 
 @media (max-width:767px) {
-    .benefit-reward-achievement {
+    .benefit-reward-achievement-BenefitRewardAchivement {
         text-align: center;
     }
 }
 
-.frame-1707480201 {
+.frame-1707480201-BenefitRewardAchivement {
     background: #ffffff;
     border-radius: 24px;
     padding: 30px 50px 30px 50px;
@@ -51,7 +51,7 @@
     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
 }
 
-.frame-1707480190 {
+.frame-1707480190-BenefitRewardAchivement {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -61,7 +61,7 @@
     position: relative;
 }
 
-.image {
+.image-BenefitRewardAchivement {
     border-radius: 50%;
     flex-shrink: 0;
     width: 130px;
@@ -70,7 +70,7 @@
     object-fit: cover;
 }
 
-.frame-1707480387 {
+.frame-1707480387-BenefitRewardAchivement {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -80,7 +80,7 @@
     position: relative;
 }
 
-.fizup {
+.fizup-BenefitRewardAchivement {
     color: #1f1f26;
     text-align: center;
     font-family: "Poppins-SemiBold", sans-serif;
@@ -90,7 +90,7 @@
     position: relative;
 }
 
-.frame-1707480388 {
+.frame-1707480388-BenefitRewardAchivement {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -98,7 +98,7 @@
     justify-content: center;
 }
 
-.bottle-pack {
+.bottle-pack-BenefitRewardAchivement {
     color: #6f6f6f;
     text-align: center;
     font-family: "Poppins-Medium", sans-serif;
@@ -107,7 +107,7 @@
     font-weight: 500;
 }
 
-._4-bottles {
+._4-bottles-BenefitRewardAchivement {
     color: #6f6f6f;
     text-align: center;
     font-family: "Poppins-Medium", sans-serif;
@@ -117,7 +117,7 @@
     position: relative;
 }
 
-._30-points {
+._30-points-BenefitRewardAchivement {
     color: #0b8a44;
     text-align: center;
     font-family: "Poppins-Medium", sans-serif;
@@ -127,7 +127,7 @@
     position: relative;
 }
 
-.Redeem_Benefits_button {
+.Redeem_Benefits_button-BenefitRewardAchivement {
     cursor: pointer;
     background: #eaeaec;
     border-radius: 62px;
@@ -141,7 +141,7 @@
     transition: 0.3s ease-in;
 }
 
-.Redeem_Benefits_button:hover {
+.Redeem_Benefits_button-BenefitRewardAchivement:hover {
     background: #0b8a44dd;
     border-radius: 62px;
     padding: 10px 14px 10px 14px;
@@ -153,7 +153,7 @@
     color: #ffffff;
 }
 
-.redeem-benefits {
+.redeem-benefits-BenefitRewardAchivement {
     text-align: left;
     font-family: "Poppins-SemiBold", sans-serif;
     font-size: 16px;
@@ -163,7 +163,7 @@
 
 /* offcanvas */
 
-.frame-1707480392 {
+.frame-1707480392-BenefitRewardAchivement {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -174,7 +174,7 @@
     position: relative;
 }
 
-.frame-1707480379 {
+.frame-1707480379-BenefitRewardAchivement {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -184,7 +184,7 @@
     position: relative;
 }
 
-.radix-icons-cross-1 {
+.radix-icons-cross-1-BenefitRewardAchivement {
     flex-shrink: 0;
     width: 22px;
     height: 22px;
@@ -192,7 +192,7 @@
     overflow: hidden;
 }
 
-.frame-1707480238 {
+.frame-1707480238-BenefitRewardAchivement {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -205,7 +205,7 @@
     overflow: visible;
 }
 
-.frame-1707480391 {
+.frame-1707480391-BenefitRewardAchivement {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -216,7 +216,7 @@
     position: relative;
 }
 
-.diamond {
+.diamond-BenefitRewardAchivement {
     flex-shrink: 0;
     width: 148px;
     height: 148px;
@@ -224,7 +224,7 @@
     overflow: hidden;
 }
 
-.image {
+.image-BenefitRewardAchivement {
     border-radius: 50%;
     flex-shrink: 0;
     width: 130px;
@@ -233,7 +233,7 @@
     object-fit: cover;
 }
 
-.frame-1707480389 {
+.frame-1707480389-BenefitRewardAchivement {
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -243,7 +243,7 @@
     position: relative;
 }
 
-.next-cola {
+.next-cola-BenefitRewardAchivement {
     color: #1e1d1c;
     text-align: left;
     font-family: "Poppins-SemiBold", sans-serif;
@@ -254,7 +254,7 @@
     align-self: stretch;
 }
 
-.bottle-pack {
+.bottle-pack-BenefitRewardAchivement {
     color: #6f6f6f;
     text-align: center;
     font-family: "Poppins-Medium", sans-serif;
@@ -264,7 +264,7 @@
     position: relative;
 }
 
-._4-bottles {
+._4-bottles-BenefitRewardAchivement {
     color: #6f6f6f;
     text-align: center;
     font-family: "Poppins-Medium", sans-serif;
@@ -274,7 +274,7 @@
     position: relative;
 }
 
-._30-points {
+._30-points-BenefitRewardAchivement {
     color: #0b8a44;
     text-align: center;
     font-family: "Poppins-Medium", sans-serif;
@@ -284,10 +284,218 @@
     position: relative;
 }
 
-.frame-1707480390 {
+.coupon-BenefitRewardAchivement {
+    background: #ffffff;
+    border-radius: 8px;
+    border-style: dashed;
+    border-color: #d5d8de;
+    border-width: 1px;
+    padding: 16px 10px 40px 0px;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+._4481224-18781-1-BenefitRewardAchivement {
+    flex-shrink: 0;
+    width: 100%;
+    height: 202px;
+    position: relative;
+    object-fit: cover;
+}
+
+.frame-1707480582-BenefitRewardAchivement {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+}
+
+.frame-1707480579-BenefitRewardAchivement {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.one-benefit-perk-editing-one-perk-one-type-edited-BenefitRewardAchivement {
+    color: #009146;
+    text-align: center;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-1707480573-BenefitRewardAchivement {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 317px;
+    position: relative;
+}
+
+.expiry-date-feb-18-2025-12-00-am-BenefitRewardAchivement {
+    text-align: center;
+    font-family: "-", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.expiry-date-feb-18-2025-12-00-am-span-BenefitRewardAchivement {
+    color: #1f1f26;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.expiry-date-feb-18-2025-12-00-am-span2-BenefitRewardAchivement {
+    color: #1f1f26;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.expiry-date-feb-18-2025-12-00-am-span3-BenefitRewardAchivement {
+    color: #6f6f6f;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.common-button-BenefitRewardAchivement {
+    background: linear-gradient(180deg,
+            rgba(9, 27, 71, 1) 0%,
+            rgba(36, 0, 152, 1) 100%);
+    border-radius: 24px;
+    padding: 10px 32px 10px 32px;
+    display: flex;
+    flex-direction: row;
     gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 100%;
+    height: 44px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+.common-button-BenefitRewardAchivement:hover {
+    background: linear-gradient(180deg,
+            rgba(9, 27, 71, 0.854) 0%,
+            rgba(35, 0, 152, 0.875) 100%);
+    border-radius: 24px;
+    padding: 10px 32px 10px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 100%;
+    height: 44px;
+    position: relative;
+}
+
+.verify-download-BenefitRewardAchivement {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+.we-will-send-you-a-verification-code-on-your-email-to-verify-your-voucher-BenefitRewardAchivement {
+    color: #6f6f6f;
+    text-align: center;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-1707480572-BenefitRewardAchivement {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    /* left: 50%;
+    translate: -50%; */
+    top: 62px;
+}
+
+.heroicons-gift-20-solid-BenefitRewardAchivement {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.group-BenefitRewardAchivement {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    bottom: 10%;
+    top: 10%;
+    overflow: visible;
+}
+
+.gift-voucher-for-you-BenefitRewardAchivement {
+    color: #d11111;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+}
+
+
+
+
+
+
+.frame-1707480580-BenefitRewardAchivement {
+    padding: 16px 0px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     align-items: flex-start;
     justify-content: flex-start;
     align-self: stretch;
@@ -295,26 +503,601 @@
     position: relative;
 }
 
-.line-48 {
-    margin-top: -1px;
-    border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px 0 0 0;
-    align-self: stretch;
-    flex-shrink: 0;
-    height: 0px;
-    position: relative;
-    transform-origin: 0 0;
-    transform: rotate(0deg) scale(1, 1);
-}
-
-.terms-conditions {
-    color: #1e1d1c;
+.terms-conditions-BenefitRewardAchivement {
+    color: #1f1f26;
     text-align: left;
     font-family: "Poppins-SemiBold", sans-serif;
     font-size: 16px;
-    line-height: 34px;
     font-weight: 600;
     position: relative;
+    width: 100%;
+}
+
+.frame-1707480581-BenefitRewardAchivement {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+}
+
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-BenefitRewardAchivement {
+    color: #6f6f6f;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.36px;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+}
+
+.lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry2-BenefitRewardAchivement {
+    color: #6f6f6f;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* otp part on status 1  */
+
+.frame-1707480583-BenefitRewardAchivement {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
     align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.coupon-BenefitRewardAchivement {
+    background: #ffffff;
+    border-radius: 8px;
+    border-style: dashed;
+    border-color: #d5d8de;
+    border-width: 1px;
+    padding: 0px 0px 24px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+._4481224-18781-1-BenefitRewardAchivement {
+    flex-shrink: 0;
+    width: 391px;
+    height: 202px;
+    position: relative;
+    object-fit: cover;
+}
+
+.frame-1707480579-BenefitRewardAchivement {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+}
+
+.one-benefit-perk-editing-one-perk-one-type-edited-BenefitRewardAchivement {
+    color: #009146;
+    text-align: center;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-1707480573-BenefitRewardAchivement {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 317px;
+    position: relative;
+}
+
+.expiry-date-feb-18-2025-12-00-am-BenefitRewardAchivement {
+    text-align: center;
+    font-family: "-", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.expiry-date-feb-18-2025-12-00-am-span-BenefitRewardAchivement {
+    color: #1f1f26;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.expiry-date-feb-18-2025-12-00-am-span2-BenefitRewardAchivement {
+    color: #1f1f26;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.expiry-date-feb-18-2025-12-00-am-span3-BenefitRewardAchivement {
+    color: #6f6f6f;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.frame-1707480576-BenefitRewardAchivement {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 100%;
+}
+
+.otpWrapper-BenefitRewardAchivement {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: flex-start;
+}
+
+.label-BenefitRewardAchivement {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-1707480575-BenefitRewardAchivement {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+}
+
+.opt_input {
+    border: 1px solid #ced4da;
+    outline: #ced4da;
+    text-align: center;
+    border-radius: 4px;
+    width: 42px;
+    height: 42px;
+}
+
+.opt_input::placeholder {
+    text-align: center;
+    color: #9CA3AF;
+}
+
+.group-75895-BenefitRewardAchivement {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: static;
+
+}
+
+.group-75882-BenefitRewardAchivement {
+    width: 48px;
+    height: 48px;
+    position: static;
+}
+
+.rectangle-382-BenefitRewardAchivement {
+    background: #ffffff;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #d5d8de;
+    border-width: 1px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.div-BenefitRewardAchivement {
+    color: #a5a5a8;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 16.5px;
+    top: 9.5px;
+}
+
+.group-75896-BenefitRewardAchivement {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: static;
+}
+
+.rectangle-3822-BenefitRewardAchivement {
+    background: #ffffff;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #d5d8de;
+    border-width: 1px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 58.8px;
+    top: 0px;
+}
+
+.div2-BenefitRewardAchivement {
+    color: #a5a5a8;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 75.3px;
+    top: 9.5px;
+}
+
+.group-75897-BenefitRewardAchivement {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: static;
+}
+
+.rectangle-3823-BenefitRewardAchivement {
+    background: #ffffff;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #d5d8de;
+    border-width: 1px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 117.6px;
+    top: 0px;
+}
+
+.div3-BenefitRewardAchivement {
+    color: #a5a5a8;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 134.1px;
+    top: 9.5px;
+}
+
+.group-75898-BenefitRewardAchivement {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: static;
+}
+
+.rectangle-3824-BenefitRewardAchivement {
+    background: #ffffff;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #d5d8de;
+    border-width: 1px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 176.4px;
+    top: 0px;
+}
+
+.div4-BenefitRewardAchivement {
+    color: #a5a5a8;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 192.9px;
+    top: 9.5px;
+}
+
+.group-75899-BenefitRewardAchivement {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: static;
+}
+
+.rectangle-3825-BenefitRewardAchivement {
+    background: #ffffff;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #d5d8de;
+    border-width: 1px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 235.2px;
+    top: 0px;
+}
+
+.div5-BenefitRewardAchivement {
+    color: #a5a5a8;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 251.7px;
+    top: 9.5px;
+}
+
+.group-75900-BenefitRewardAchivement {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: static;
+}
+
+.rectangle-3826-BenefitRewardAchivement {
+    background: #ffffff;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #d5d8de;
+    border-width: 1px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 294px;
+    top: 0px;
+}
+
+.div6-BenefitRewardAchivement {
+    color: #a5a5a8;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 310.5px;
+    top: 9.5px;
+}
+
+.check-your-email-we-have-sent-you-a-verification-code-BenefitRewardAchivement {
+    color: #6f6f6f;
+    text-align: center;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-1707480577-BenefitRewardAchivement {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.back-BenefitRewardAchivement {
+    background: #ffffff;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: #d5d8de;
+    border-width: 1px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 163px;
+    height: 44px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+}
+
+.back2-BenefitRewardAchivement {
+    color: #a5a5a8;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+    position: relative;
+}
+
+.back-resend-BenefitRewardAchivement {
+    background: #ffffff;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: #0b8a44;
+    border-width: 1px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 163px;
+    height: 44px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    color: #0b8a44;
+}
+
+.back-resend-BenefitRewardAchivement:hover {
+    background: #0b8a44e3;
+    color: #ffffff;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: #0b8a44;
+    border-width: 1px;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 163px;
+    height: 44px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+}
+
+.back2-resend-BenefitRewardAchivement {
+
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+    position: relative;
+}
+
+.back3-BenefitRewardAchivement {
+    background: #0b8a44;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0.5px;
+    padding: 12px 16px 12px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 163px;
+    height: 44px;
+    overflow: hidden;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}
+
+.back3-BenefitRewardAchivement:hover {
+    background: #0b8a44ce;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0.5px;
+    padding: 12px 16px 12px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 163px;
+    height: 44px;
+    overflow: hidden;
+}
+
+.back4-BenefitRewardAchivement {
+    color: #f4f8f9;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 600;
+    position: relative;
+}
+
+.frame-1707480572-BenefitRewardAchivement {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    top: 62px;
+}
+
+.heroicons-gift-20-solid-BenefitRewardAchivement {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.group-BenefitRewardAchivement {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    bottom: 10%;
+    top: 10%;
+    overflow: visible;
+}
+
+.gift-voucher-for-you-BenefitRewardAchivement {
+    color: #d11111;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
 }
