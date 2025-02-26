@@ -79,7 +79,7 @@ function Benefits() {
                         className="frame-1707480208-benefit"
                         onClick={handleShow}
                       >
-                        <div className="edit-benefit">Edit</div>
+                        <div className="edit-benefit-table">Edit</div>
                         <div className="edit2">
                           <img className="group" src="assets/images/edit.svg" />
                         </div>
@@ -110,7 +110,7 @@ function Benefits() {
                         className="frame-1707480208-benefit"
                         onClick={handleShow}
                       >
-                        <div className="edit-benefit">Edit</div>
+                        <div className="edit-benefit-table">Edit</div>
                         <div className="edit2">
                           <img className="group" src="assets/images/edit.svg" />
                         </div>
@@ -131,15 +131,17 @@ function Benefits() {
           backdrop="static"
           backdropClassName="backtrop_fade_color"
         >
+          <Offcanvas.Header>
+            <button
+              className="btn p-1  text-reset"
+              type="button"
+              onClick={handleHideAddBenefit}
+            >
+              <img src="assets/images/radix-icons_cross-1.svg" />
+            </button>
+          </Offcanvas.Header>
           <Offcanvas.Body>
             <div className="frame-1707480379">
-              <button
-                className="btn p-1  text-reset"
-                type="button"
-                onClick={handleHideAddBenefit}
-              >
-                <img src="assets/images/radix-icons_cross-1.svg" />
-              </button>
               <div className="frame-1707480381">
                 <div className="create-benefit">Create Benefit</div>
                 <div className="benefit-details">Benefit Details</div>
@@ -260,7 +262,6 @@ function Benefits() {
                   <option selected>Select Type</option>
                 </select>
               </div>
-              <div className="label3">Perks</div>
               <div className="w-100">
                 <label className="label-span mb-2">Points</label>
                 <span className="label-span ">*</span>
@@ -372,7 +373,7 @@ function Benefits() {
                       <div className="points">Points</div>
                     </div>
                     <div className="frame-7_benefit">
-                      <div className="edit-benefit">Edit</div>
+                      <div className="edit-benefit_benefits">Edit</div>
                     </div>
                   </div>
                   <div className="frame-1707480217">
@@ -435,15 +436,17 @@ function Benefits() {
           backdrop="static"
           backdropClassName="backtrop_fade_color"
         >
+          <Offcanvas.Header>
+            <button
+              className="btn p-1  text-reset"
+              type="button"
+              onClick={handleClose}
+            >
+              <img src="assets/images/radix-icons_cross-1.svg" />
+            </button>
+          </Offcanvas.Header>
           <Offcanvas.Body>
             <div className="frame-1707480379">
-              <button
-                className="btn p-1  text-reset"
-                type="button"
-                onClick={handleClose}
-              >
-                <img src="assets/images/radix-icons_cross-1.svg" />
-              </button>
               <div className="frame-1707480381">
                 <div className="add-user-Benefit_offconvax">
                   Update User Benefit
@@ -565,7 +568,6 @@ function Benefits() {
                   <option selected>Select Type</option>
                 </select>
               </div>
-              <div className="label3">Perks</div>
               <div className="w-100">
                 <label className="label-span mb-2">Points</label>
                 <span className="label-span ">*</span>
@@ -630,7 +632,7 @@ function Benefits() {
                       <div className="points">Points</div>
                     </div>
                     <div className="frame-7_benefit">
-                      <div className="edit-benefit">Edit</div>
+                      <div className="edit-benefit_benefits">Edit</div>
                     </div>
                   </div>
                   <div className="frame-1707480217">
