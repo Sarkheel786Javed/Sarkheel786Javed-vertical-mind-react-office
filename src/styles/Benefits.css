@@ -227,7 +227,15 @@
     position: relative;
 }
 
-.edit-benefit {
+.edit-benefit_benefits {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+.edit-benefit-table{
     color: #112F82;
     text-align: left;
     font-family: "Poppins-Regular", sans-serif;
