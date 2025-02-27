@@ -64,9 +64,9 @@ function Navbar() {
                 <div className="nav-item3">Dashboard</div>
               </div>
             </Link>
-            <Link to="/home" className="nav-item text-decoration-none">
+            <Link to="/challenge" className="nav-item text-decoration-none">
               <div className="nav-item2">
-                <div className="nav-item3">Home</div>
+                <div className="nav-item3">Challenges</div>
               </div>
             </Link>
             <Link to="/course" className="nav-item text-decoration-none">
@@ -239,12 +239,12 @@ function Navbar() {
             </div>
           </NavLink>
           <NavLink
-            to="/home"
+            to="/challenge"
             onClick={() => setHovered(false)}
             className="nav-item text-decoration-none"
           >
             <div className="nav-item2">
-              <div className="nav-item3">Home</div>
+              <div className="nav-item3">Challenges</div>
             </div>
           </NavLink>
           <NavLink

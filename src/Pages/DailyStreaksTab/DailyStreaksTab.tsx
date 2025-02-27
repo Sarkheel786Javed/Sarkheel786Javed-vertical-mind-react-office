@@ -253,14 +253,12 @@ function DailyStreaksTab() {
   //   const cardsPerPage = 3;
 
   const nextCards = () => {
-    debugger;
     if (currentIndex < cards.length) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
     }
   };
 
   const prevCards = () => {
-    debugger;
     if (currentIndex > 0) {
       setCurrentIndex((prevIndex) => prevIndex - 1);
     }

@@ -9,6 +9,7 @@ import Layout from "./App/Layout.tsx";
 import Benefits from "./Pages/Benefits/Benefits.tsx";
 import BenefitRewardAchivement from "./Pages/BenefitRewardAchivement/BenefitRewardAchivement.tsx";
 import EarnedPointsDashboard from "./Pages/EarnedPointsDashboard/EarnedPointsDashboard.tsx";
+import Challenge from "./Pages/Challenge/Challenge.tsx";
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,14 @@ function App() {
             element={
               <Layout>
                 <Dashboard />
+              </Layout>
+            }
+          />
+          <Route
+            path="/challenge"
+            element={
+              <Layout>
+                <Challenge />
               </Layout>
             }
           />
