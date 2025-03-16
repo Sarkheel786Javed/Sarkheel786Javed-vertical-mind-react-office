@@ -551,7 +551,7 @@
 /* view history  */
 
 .Offcanvas_daily_streak {
-    width: 75%;
+    width: 768px;
 }
 
 .frame-1707480274_view_history {
@@ -597,7 +597,7 @@
     align-self: stretch;
 }
 
-.table {
+#table {
     background: #ffffff;
     border-radius: 24px;
     border-style: solid;
@@ -656,6 +656,7 @@
     color: var(--primary-darker, #151b4a);
     text-align: left;
     font-family: "Poppins-Bold", sans-serif;
+    padding-left: 0px;
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.36px;
@@ -1208,10 +1209,99 @@
     flex: 1;
 }
 
+/* table responsiveness  */
+
+
+#dailystreakTab table,
+#dailystreakTab table thead,
+#dailystreakTab table tbody,
+#dailystreakTab table tbody tr {
+    width: 100%;
+}
+
+#dailystreakTab table tbody td:nth-child(1n) {
+    width: 34%;
+}
+
+#dailystreakTab table tbody td:nth-child(2n) {
+    width: 34%;
+}
+
+#dailystreakTab table tbody td:nth-child(3n) {
+    width: 13%;
+}
+
+#dailystreakTab table tbody td:nth-child(4n) {
+    width: 18%;
+}
+
+
+
+
+#dailystreakTab table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+#dailystreakTab table thead {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    background-color: #ececec;
+    height: 50px;
+    overflow: hidden;
+}
+
+#dailystreakTab table thead tr thead th {
+    font-weight: 600;
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+}
+
+#dailystreakTab table thead tr tbody td {
+    font-weight: 600;
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+}
+
+#dailystreakTab table thead tr th:first-child,
+#dailystreakTab table thead tr td:first-child {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+#dailystreakTab table thead tr th:last-child,
+#dailystreakTab table thead tr td:last-child {
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+
+#dailystreakTab .pad {
+    padding-left: 10px;
+}
+
+#dailystreakTab table tbody td {
+    text-align: start;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 16px;
+    height: 50px;
+}
+
+#dailystreakTab table tbody tr:nth-child(2n) {
+    background-color: #F5F7FA;
+}
+
+
 @media (max-width:767px) {
     .frame-1707480223-daily-streaks-tab {
         padding: 30px 0px;
     }
+
     .frame-1707480226-daily-streaks-tab {
         display: flex;
         flex-direction: row;
@@ -1222,6 +1312,7 @@
         flex-shrink: 0;
         position: relative;
     }
+
     .frame-17074802232-daily-streaks-tab {
         width: 100%;
         display: flex;
@@ -1342,4 +1433,127 @@
 
     }
 
+    /* tabel responsiveness  */
+    .in-progress,
+    .completed,
+    .break {
+        font-size: 12px;
+    }
+
+    .level-2 {
+        padding-left: 13px;
+    }
+
+    #table {
+        background: none;
+        border-radius: none;
+        border-style: none;
+        border-color: none;
+        border-width: none;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .frame-1707480274_view_history {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .frame-17074802232,
+    .frame-1707480225 {
+        display: none;
+    }
+
+    .frame-1707480267 {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        align-items: center;
+        justify-content: flex-end;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    #dailystreakTab table tbody td:nth-child(1n) {
+        width: 100%;
+    }
+
+    #dailystreakTab table tbody td:nth-child(2n) {
+        width: 100%;
+    }
+
+    #dailystreakTab table tbody td:nth-child(3n) {
+        width: 100%;
+    }
+
+    #dailystreakTab table tbody td:nth-child(4n) {
+        width: 100%;
+    }
+
+    .Offcanvas_daily_streak {
+        width: 320px;
+    }
+
+    #dailystreakTab table thead th,
+    #dailystreakTab table tbody td {
+        width: 100%;
+    }
+
+    #dailystreakTab table thead {
+        height: auto;
+        background-color: none;
+    }
+
+    #dailystreakTab .pad {
+        padding: 0px;
+    }
+
+    #dailystreakTab table tbody td {
+        text-align: end;
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 12px;
+        height: 21px;
+        margin-bottom: 14px;
+    }
+
+    #dailystreakTab table tbody tr:nth-child(2n) {
+        background-color: #F5F7FA;
+        border-radius: 8px;
+    }
+
+    #dailystreakTab tbody {
+        padding: 0px;
+    }
+
+    #dailystreakTab tr,
+    #dailystreakTab td {
+        display: block;
+        padding: 10px;
+    }
+
+    #dailystreakTab thead tr {
+        position: absolute;
+        top: -999px;
+        left: -9999px;
+    }
+
+    #dailystreakTab td {
+        position: relative;
+        padding-left: 30%;
+        border: none;
+    }
+
+    #dailystreakTab td:before {
+        content: attr(data-title);
+        position: absolute;
+        left: 6px;
+        font-weight: bold;
+    }
 }

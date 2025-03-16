@@ -9,6 +9,9 @@ function Navbar() {
   const [hovered, setHovered] = useState<boolean>(false);
 
   const path = [
+    // "/question",
+    // "/topic",
+    "/board",
     "/Benefit",
     "/Benefit-Reward-Achievement",
     "/Task",
@@ -90,9 +93,8 @@ function Navbar() {
               onClick={toggleMenu}
             >
               <div
-                className={`table-top-bar ${
-                  hovered ? "dropdown_active" : "dropdown_unactive"
-                }`}
+                className={`table-top-bar ${hovered ? "dropdown_active" : "dropdown_unactive"
+                  }`}
                 style={{
                   backgroundColor: hovered ? "#0b8a44" : "transparent",
                   transition: "background-color 0.3s ease-in-out",
@@ -101,9 +103,8 @@ function Navbar() {
                 <div className="point-summary">
                   <div className="frame-1707480279">
                     <div
-                      className={`task-management ${
-                        hovered ? "text-light" : "text-dark"
-                      }`}
+                      className={`task-management ${hovered ? "text-light" : "text-dark"
+                        }`}
                     >
                       Task Management
                     </div>
@@ -121,12 +122,36 @@ function Navbar() {
               </div>
               {showSubChild && (
                 <ul className="sub_child ">
+                  {/* <NavLink
+                    to="/topic"
+                    className="nav-item text-decoration-none"
+                  >
+                    <div className="nav-item2">
+                      <div className="nav-item3">Topic </div>
+                    </div>
+                  </NavLink> */}
+                  {/* <NavLink
+                    to="/question"
+                    className="nav-item text-decoration-none"
+                  >
+                    <div className="nav-item2">
+                      <div className="nav-item3">Question </div>
+                    </div>
+                  </NavLink> */}
                   <NavLink
                     to="/Benefit"
                     className="nav-item text-decoration-none"
                   >
                     <div className="nav-item2">
                       <div className="nav-item3">Benefit </div>
+                    </div>
+                  </NavLink>
+                  <NavLink
+                    to="/board"
+                    className="nav-item text-decoration-none"
+                  >
+                    <div className="nav-item2">
+                      <div className="nav-item3">Board </div>
                     </div>
                   </NavLink>
                   <NavLink
@@ -275,9 +300,8 @@ function Navbar() {
             </div>
           </NavLink>
           <div
-            className={`table-top-bar ${
-              hovered ? "dropdown_active" : "dropdown_unactive"
-            }`}
+            className={`table-top-bar ${hovered ? "dropdown_active" : "dropdown_unactive"
+              }`}
             onMouseEnter={() => [setHovered(true), setShowSubChild(true)]}
             onMouseLeave={() => {
               setHovered(false);
@@ -291,9 +315,8 @@ function Navbar() {
             <div className="point-summary">
               <div className="frame-1707480279">
                 <div
-                  className={`task-management ${
-                    hovered ? "text-light" : "text-dark"
-                  }`}
+                  className={`task-management ${hovered ? "text-light" : "text-dark"
+                    }`}
                 >
                   Task Management
                 </div>
@@ -313,6 +336,30 @@ function Navbar() {
                 className="dropdown-menu rounded-0 show"
                 aria-labelledby="dropdownMenuButton1"
               >
+                {/* <NavLink
+                  to="/topic"
+                  className="nav-item text-decoration-none"
+                >
+                  <div className="nav-item2">
+                    <div className="nav-item3">Topic </div>
+                  </div>
+                </NavLink> */}
+                <NavLink
+                  to="/board"
+                  className="nav-item text-decoration-none"
+                >
+                  <div className="nav-item2">
+                    <div className="nav-item3">Board </div>
+                  </div>
+                </NavLink>
+                {/* <NavLink
+                  to="/question"
+                  className="nav-item text-decoration-none"
+                >
+                  <div className="nav-item2">
+                    <div className="nav-item3">Question </div>
+                  </div>
+                </NavLink> */}
                 <NavLink
                   to="/Benefit"
                   className="nav-item text-decoration-none"

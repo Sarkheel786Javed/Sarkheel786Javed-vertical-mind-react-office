@@ -275,6 +275,147 @@ function DailyStreaksTab() {
   const handleShowHistory = () => {
     setShowHistory(true);
   };
+  const data = [
+    {
+      SerialNo: 1,
+      Date: "20 Dec, 2024 AT 10:27 AM",
+      Status: "In Progress",
+      PointsEarned: "0",
+    },
+    {
+      SerialNo: 1,
+      Date: "20 Dec, 2024 AT 10:27 AM",
+      Status: "Completed",
+      PointsEarned: "0",
+    },
+    {
+      SerialNo: 1,
+      Date: "20 Dec, 2024 AT 10:27 AM",
+      Status: "In Progress",
+      PointsEarned: "0",
+    },
+    {
+      SerialNo: 1,
+      Date: "20 Dec, 2024 AT 10:27 AM",
+      Status: "Break",
+      PointsEarned: "0",
+    },
+  ];
+  const TableComponent1 = () => {
+    return (
+      <>
+        <div className="w-100" id="dailystreakTab">
+          <table className="">
+            <thead>
+              <tr>
+                <th className="pad">Sr. No</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Points Earned</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.slice(0, 2).map((item) => (
+                <>
+                  <tr>
+                    <td data-title="Sr. No" className="pad">
+                      <div>{item.Date}</div>
+                    </td>
+                    <td data-title="Date">
+                      <div>{item.Date}</div>
+                    </td>
+                    <td data-title="Status">
+                      <div>
+                        {item.Status === "In Progress" && (
+                          <div className="frame-1707480267">
+                            <div className="ellipse-454" />
+                            <div className="in-progress">In Progress</div>
+                          </div>
+                        )}
+                        {item.Status === "Completed" && (
+                          <div className="frame-1707480267">
+                            <div className="ellipse-453" />
+                            <div className="completed">Completed</div>
+                          </div>
+                        )}
+                        {item.Status === "Break" && (
+                          <div className="frame-1707480267">
+                            <div className="ellipse-4532" />
+                            <div className="break">Break</div>
+                          </div>
+                        )}
+                      </div>
+                    </td>
+                    <td data-title="Points Earned">
+                      <div>{item.PointsEarned}</div>
+                    </td>
+                  </tr>
+                </>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </>
+    );
+  };
+  const TableComponent2 = () => {
+    return (
+      <>
+        <div className="w-100" id="dailystreakTab">
+          <table className="">
+            <thead>
+              <tr>
+                <th className="pad">Sr. No</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Points Earned</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.slice(1, 4).map((item) => (
+                <>
+                  <tr>
+                    <td data-title="Sr. No" className="pad">
+                      <div>{item.Date}</div>
+                    </td>
+                    <td data-title="Date">
+                      <div>{item.Date}</div>
+                    </td>
+                    <td data-title="Status">
+                      <div>
+                        {item.Status === "In Progress" && (
+                          <div className="frame-1707480267">
+                            <div className="ellipse-454" />
+                            <div className="in-progress">In Progress</div>
+                          </div>
+                        )}
+                        {item.Status === "Completed" && (
+                          <div className="frame-1707480267">
+                            <div className="ellipse-453" />
+                            <div className="completed">Completed</div>
+                          </div>
+                        )}
+                        {item.Status === "Break" && (
+                          <div className="frame-1707480267">
+                            <div className="ellipse-4532" />
+                            <div className="break">Break</div>
+                          </div>
+                        )}
+                      </div>
+                    </td>
+                    <td data-title="Points Earned">
+                      <div>{item.PointsEarned}</div>
+                    </td>
+                  </tr>
+                </>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </>
+    );
+  };
+
   return (
     <>
       <div className="page_wrapper-daily-streaks">
@@ -520,15 +661,33 @@ function DailyStreaksTab() {
         backdropClassName="backtrop_fade_color hello"
         className="Offcanvas_daily_streak"
       >
-        <Offcanvas.Header>
-          <div className="cancel-daily-streak" onClick={handleCloseHistory}>
-            <img src="assets/images/offcanvas-close-daily-streak.svg" />
-          </div>
+        <Offcanvas.Header className="offcanvas_header">
+          <>
+            <div className="frame-1000002761-header">
+              <div className="frame-1707480551-header">
+                <div className="frame-1000002997-header">
+                  <div className="frame-1000003004-header">
+                    <div className="view-task-task-header">View History</div>
+                  </div>
+                </div>
+                <div className="frame-1707480584-header">
+                  <div
+                    className="button-task-header"
+                    onClick={handleCloseHistory}
+                  >
+                    <img
+                      className="mdi-edit-outline-header"
+                      src="assets/images/radix-icons_cross-1.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div className="frame-1707480274_view_history">
-            <div className="view-history">View History</div>
-            <div className="table">
+            <div id="table">
               <div className="frame-1707480241">
                 <div className="frame-1707480222">
                   <div className="frame-1707480220">
@@ -567,64 +726,23 @@ function DailyStreaksTab() {
                     <div className="_10">10</div>
                   </div>
                 </div>
-                <div className="table2">
-                  <div className="frame-1707480218">
-                    <div className="frame-9">
-                      <div className="frame-13">
-                        <div className="sr-no">Sr. No</div>
-                      </div>
-                      <div className="frame-4">
-                        <div className="date">Date</div>
-                      </div>
-                      <div className="frame-2-daily-streak">
-                        <div className="status-daily-streak">Status</div>
-                      </div>
-                      <div className="frame-12">
-                        <div className="points-earned">Points Earned</div>
-                      </div>
-                    </div>
-                    <div className="frame-1707480221">
-                      <div className="table3">
-                        <div className="table4">
-                          <div className="frame-10">
-                            <div className="frame-20">
-                              <div className="_1">1</div>
-                            </div>
-                            <div className="frame-4">
-                              <div className="_20-dec-2024-at-10-27-am">
-                                20 Dec, 2024 AT 10:27 AM
-                              </div>
-                            </div>
-                            <div className="frame-22">
-                              <div className="frame-1707480267">
-                                <div className="ellipse-454" />
-                                <div className="in-progress">In Progress</div>
-                              </div>
-                            </div>
-                            <div className="frame-21">
-                              <div className="_02">0</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                {/* table responsiveness */}
+                <TableComponent1 />
               </div>
             </div>
-            <div className="table">
+            <div id="table">
               <div className="frame-1707480241">
                 <div className="frame-1707480222">
                   <div className="frame-1707480220">
                     <div className="frame-1707480223">
-                      <div className="level-1">Level 1</div>
+                      <div className="level-2">Level 1</div>
                       <div className="frame-1707480225">
                         <div className="frame-1707480226">
                           <div className="frame-1707480188">
                             <div className="earned-points">EARNED POINTS :</div>
                           </div>
                           <div className="frame-1707480268">
-                            <div className="_50">50</div>
+                            <div className="_50">0</div>
                           </div>
                         </div>
                       </div>
@@ -651,74 +769,8 @@ function DailyStreaksTab() {
                     <div className="_10">10</div>
                   </div>
                 </div>
-                <div className="table2">
-                  <div className="frame-1707480218">
-                    <div className="frame-9">
-                      <div className="frame-13">
-                        <div className="sr-no">Sr. No</div>
-                      </div>
-                      <div className="frame-4">
-                        <div className="date">Date</div>
-                      </div>
-                      <div className="frame-2-daily-streak">
-                        <div className="status-daily-streak">Status</div>
-                      </div>
-                      <div className="frame-12">
-                        <div className="points-earned">Points Earned</div>
-                      </div>
-                    </div>
-                    <div className="frame-1707480221">
-                      <div className="table3">
-                        <div className="table4">
-                          <div className="frame-10">
-                            <div className="frame-20">
-                              <div className="_1">1</div>
-                            </div>
-                            <div className="frame-4">
-                              <div className="_20-dec-2024-at-10-27-am">
-                                20 Dec, 2024 AT 10:27 AM
-                              </div>
-                            </div>
-                            <div className="frame-22">
-                              <div className="frame-1707480267">
-                                <div className="ellipse-453" />
-                                <div className="completed">Completed</div>
-                              </div>
-                            </div>
-                            <div className="frame-21">
-                              <div className="_502">50</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="frame-1707480222">
-                      <div className="table3">
-                        <div className="table4">
-                          <div className="frame-10">
-                            <div className="frame-20">
-                              <div className="_2">2</div>
-                            </div>
-                            <div className="frame-4">
-                              <div className="_15-nov-2024-at-10-27-am">
-                                15 Nov, 2024 AT 10:27 AM
-                              </div>
-                            </div>
-                            <div className="frame-22">
-                              <div className="frame-1707480267">
-                                <div className="ellipse-4532" />
-                                <div className="break">Break</div>
-                              </div>
-                            </div>
-                            <div className="frame-21">
-                              <div className="_02">0</div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                {/* table responsiveness */}
+                <TableComponent2 />
               </div>
             </div>
           </div>

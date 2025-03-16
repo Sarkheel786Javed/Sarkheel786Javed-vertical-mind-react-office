@@ -34,7 +34,12 @@ function Dashboard() {
                 <h4 className="mt-2 userName">{user.name}</h4>
               </div>
               <div className="d-flex flex-wrap gap-3 justify-content-center align-items-center">
-                <div className="rounded-pill streak_count">
+                <button
+                  type="button"
+                  className="btn text-light rounded-pill streak_count"
+                  data-bs-toggle="dropdown"
+                  data-bs-placement="bottom"
+                >
                   <img
                     src="assets/images/emojione-v1_ghost.png"
                     alt="emojione-v1_ghost.png"
@@ -42,11 +47,45 @@ function Dashboard() {
                     height="16px"
                     className=""
                   />
-                  <label htmlFor="streak-count" className="ms-1">
+                  <span className="ms-1 cursor-pointer">
                     10,000,000
-                  </label>
+                  </span>
+                </button>
+                <div
+                  className="dropdown-menu bg-none border-0 "
+                  style={{ margin: "10px 10px 10px 10px" }}
+                  id="streak_menu1"
+                >
+                  <div className="tooltip-menu2 shadow">
+                    <div className="frame-1707480477-menu2">
+                      <div className="frame-1707480478-menu2">
+                        <div className="frame-1707480474-menu2">
+                          <div className="frame-menu2">
+                            <img
+                              className="group-menu2"
+                              src="assets/images/fire-streak-menu.svg"
+                            />
+                          </div>
+                          <div className="frame-1707480188-menu2">
+                            <div className="_1-day-menu2">1 Day</div>
+                          </div>
+                        </div>
+                        <div className="frame-1707480476-menu2">
+                          <div className="button-upgrade-now2-menu2">
+                            <div className="inprogress-menu2">Inprogress</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <img className="arrow-top-menu2" src="assets/images/arrow_top.svg" /> */}
+                  </div>
                 </div>
-                <div className="rounded-pill streak_day">
+                <button
+                  type="button"
+                  className="btn rounded-pill streak_day text-light"
+                  data-bs-toggle="dropdown"
+                  data-bs-placement="bottom"
+                >
                   <img
                     src="assets/images/noto_fire.png"
                     alt="emojione-v1_ghost.png"
@@ -54,9 +93,44 @@ function Dashboard() {
                     height="16px"
                     className=""
                   />
-                  <label htmlFor="streak-count" className="ms-1">
+                  <span className="ms-1 cursor-pointer">
                     5 day Streak
-                  </label>
+                  </span>
+                </button>
+                <div
+                  className="dropdown-menu bg-none border-0 "
+                  style={{ margin: "10px 10px 10px 10px" }}
+                  id="streak_menu2"
+                >
+                  <div className="tooltip-menu2 shadow">
+                    <div className="frame-1707480477-menu2">
+                      <div className="frame-1707480478-menu2">
+                        <div className="frame-1707480474-menu2">
+                          <div className="frame-menu2">
+                            <img
+                              className="group-menu2"
+                              src="assets/images/fire-streak-menu.svg"
+                            />
+                          </div>
+                          <div className="frame-1707480188-menu2">
+                            <div className="_1-day-menu2">1 Day</div>
+                          </div>
+                          <div className="button-upgrade-now-menu2">
+                            <div className="grade-10th-menu2">Grade 10th</div>
+                          </div>
+                        </div>
+                        <div className="frame-1707480476-menu2">
+                          <div className="frame-1707480189-menu2">
+                            <div className="_3-day-menu2">3 Day</div>
+                          </div>
+                          <div className="button-upgrade-now2-menu2">
+                            <div className="inprogress-menu2">Inprogress</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <img className="arrow-top-menu2" src="assets/images/arrow_top.svg" /> */}
+                  </div>
                 </div>
               </div>
             </div>

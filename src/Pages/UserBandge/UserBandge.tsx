@@ -12,6 +12,13 @@ function UserBandage() {
     setColor("#000000");
   };
   const handleShow = () => setShow(true);
+  const [showEdit, setShowEdit] = useState(false);
+
+  const handleCloseEdit = () => {
+    setShowEdit(false);
+    setColor("#000000");
+  };
+  const handleShowEdit = () => setShowEdit(true);
 
   // drop zone
 
@@ -139,7 +146,7 @@ function UserBandage() {
                               <input
                                 className="form-control w-100 rounded-pill"
                                 placeholder="Search by name"
-                                style={{ height: "44px"}}
+                                style={{ height: "44px" }}
                               />
                               <img
                                 className="_01-align-center"
@@ -272,7 +279,7 @@ function UserBandage() {
                                 <div className="frame-1707480216">
                                   <div
                                     className="frame-1707480208_user_badge"
-                                    onClick={handleShow}
+                                    onClick={handleShowEdit}
                                   >
                                     <div className="edit_user_badge">Edit</div>
                                     <div className="edit2">
@@ -348,7 +355,6 @@ function UserBandage() {
 
         {/* {/* ----------------- section one end ---------------------- * /} */}
         {/* right sidebar  */}
-        {/* Add Task */}
         <Offcanvas
           placement="end"
           show={show}
@@ -356,20 +362,32 @@ function UserBandage() {
           backdrop="static"
           backdropClassName="backtrop_fade_color"
         >
-          <Offcanvas.Header>
-          <button
-                className="btn p-1  text-reset"
-                type="button"
-                onClick={handleClose}
-              >
-                <img src="assets/images/radix-icons_cross-1.svg" />
-              </button>
+          <Offcanvas.Header className="offcanvas_header">
+            <>
+              <div className="frame-1000002761-header">
+                <div className="frame-1707480551-header">
+                  <div className="frame-1000002997-header">
+                    <div className="frame-1000003004-header">
+                      <div className="view-task-task-header">
+                        Add User Badge
+                      </div>
+                    </div>
+                  </div>
+                  <div className="frame-1707480584-header">
+                    <div className="button-task-header" onClick={handleClose}>
+                      <img
+                        className="mdi-edit-outline-header"
+                        src="assets/images/radix-icons_cross-1.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
           </Offcanvas.Header>
           <Offcanvas.Body>
             {/* onClick={handleClose} */}
             <div className="frame-1707480452">
-
-              <div className="add-user-badge_offconvax">Add User Badge</div>
               <div className="frame-1707480234">
                 <div className="w-100">
                   <label className="label-span mb-2">User Badge</label>
@@ -493,7 +511,166 @@ function UserBandage() {
             </div>
           </Offcanvas.Body>
         </Offcanvas>
-        {/* Edit Task */}
+        {/* Edit*/}
+        <Offcanvas
+          placement="end"
+          show={showEdit}
+          onHide={handleCloseEdit}
+          backdrop="static"
+          backdropClassName="backtrop_fade_color"
+        >
+          <Offcanvas.Header className="offcanvas_header">
+            <>
+              <div className="frame-1000002761-header">
+                <div className="frame-1707480551-header">
+                  <div className="frame-1000002997-header">
+                    <div className="frame-1000003004-header">
+                      <div className="view-task-task-header">
+                        Update User Badge
+                      </div>
+                    </div>
+                  </div>
+                  <div className="frame-1707480584-header">
+                    <div
+                      className="button-task-header"
+                      onClick={handleCloseEdit}
+                    >
+                      <img
+                        className="mdi-edit-outline-header"
+                        src="assets/images/radix-icons_cross-1.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
+          </Offcanvas.Header>
+          <Offcanvas.Body>
+            {/* onClick={handleClose} */}
+            <div className="frame-1707480452">
+              <div className="frame-1707480234">
+                <div className="w-100">
+                  <label className="label-span mb-2">User Badge</label>
+                  <span className="label-2-span2">*</span>
+                  <input
+                    type="text"
+                    className="form-control"
+                    placeholder="Complete Your Profile"
+                  />
+                </div>
+                <div className="w-100">
+                  <label className="label-span mb-2">Points</label>
+                  <span className="label-2-span4">*</span>
+                  <input
+                    type="number"
+                    className="form-control w-100"
+                    placeholder="100"
+                  />
+                </div>
+                <div className="w-100">
+                  <label className="label-span mb-2">Types</label>
+                  <span className="label-span ">*</span>
+                  <select
+                    className="form-select w-100"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Select Type</option>
+                  </select>
+                </div>
+                <div className="select_Color">
+                  <div className="frame-17074802302  w-100">
+                    <div className="label">
+                      <span>
+                        <span className="label-span7">Color</span>
+                        <span className="label-span8">*</span>
+                      </span>
+                    </div>
+                    <div
+                      className="frame-17074802302  w-100"
+                      onClick={toggleColorPicker}
+                    >
+                      <div className="frame-1707480328">
+                        <>
+                          <div className="d-flex align-items-center">
+                            <div
+                              style={{
+                                width: "20px",
+                                height: "20px",
+                                borderRadius: "50%",
+                                background: color,
+                                cursor: "pointer",
+                              }}
+                              onClick={toggleColorPicker}
+                            />
+                            <div className="ml-3 ms-2">{color}</div>
+                          </div>
+                          {displayColorPicker ? (
+                            <div style={{ position: "absolute", zIndex: 2 }}>
+                              <div
+                                style={{
+                                  position: "fixed",
+                                  top: "0px",
+                                  right: "0px",
+                                  bottom: "0px",
+                                  left: "0px",
+                                }}
+                                onClick={toggleColorPicker}
+                              />
+                              <div
+                                className="border shadow"
+                                style={{
+                                  position: "relative",
+                                  zIndex: 2,
+                                  backgroundColor: "white",
+                                  padding: "",
+                                  borderRadius: "5px",
+                                  boxShadow: "none",
+                                }}
+                              >
+                                <SketchPicker
+                                  className="shadow-none"
+                                  color={tempColor}
+                                  onChange={handleColorChange}
+                                />
+                                <div
+                                  className="d-flex justify-content-end gap-3"
+                                  style={{
+                                    padding: "10px",
+                                  }}
+                                >
+                                  <button
+                                    className="btn rounded-2 colors-button-cancel"
+                                    onClick={handleCancel}
+                                  >
+                                    <div className="colors-button-Child-cancel">
+                                      Cancel
+                                    </div>
+                                  </button>
+                                  <button
+                                    className="btn rounded-2 colors-button-apply"
+                                    onClick={handleApply}
+                                  >
+                                    <div className="colors-button-Child">
+                                      Apply
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          ) : null}
+                        </>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {ImageDropzone()}
+              <div className="Save" onClick={handleCloseEdit}>
+                <div className="Save-button">Save</div>
+              </div>
+            </div>
+          </Offcanvas.Body>
+        </Offcanvas>
       </div>
     </div>
   );

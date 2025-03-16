@@ -131,19 +131,35 @@ function Benefits() {
           backdrop="static"
           backdropClassName="backtrop_fade_color"
         >
-          <Offcanvas.Header>
-            <button
-              className="btn p-1  text-reset"
-              type="button"
-              onClick={handleHideAddBenefit}
-            >
-              <img src="assets/images/radix-icons_cross-1.svg" />
-            </button>
+          <Offcanvas.Header className="offcanvas_header">
+            <>
+              <div className="frame-1000002761-header">
+                <div className="frame-1707480551-header">
+                  <div className="frame-1000002997-header">
+                    <div className="frame-1000003004-header">
+                      <div className="view-task-task-header">
+                        Create Benefit
+                      </div>
+                    </div>
+                  </div>
+                  <div className="frame-1707480584-header">
+                    <div
+                      className="button-task-header"
+                      onClick={handleHideAddBenefit}
+                    >
+                      <img
+                        className="mdi-edit-outline-header"
+                        src="assets/images/radix-icons_cross-1.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
           </Offcanvas.Header>
           <Offcanvas.Body>
             <div className="frame-1707480379">
               <div className="frame-1707480381">
-                <div className="create-benefit">Create Benefit</div>
                 <div className="benefit-details">Benefit Details</div>
               </div>
               <div className="w-100">
@@ -436,20 +452,34 @@ function Benefits() {
           backdrop="static"
           backdropClassName="backtrop_fade_color"
         >
-          <Offcanvas.Header>
-            <button
-              className="btn p-1  text-reset"
-              type="button"
-              onClick={handleClose}
-            >
-              <img src="assets/images/radix-icons_cross-1.svg" />
-            </button>
+          <Offcanvas.Header className="offcanvas_header">
+            <>
+              <div className="frame-1000002761-header">
+                <div className="frame-1707480551-header">
+                  <div className="frame-1000002997-header">
+                    <div className="frame-1000003004-header">
+                      <div className="view-task-task-header">
+                        Update Benefit
+                      </div>
+                    </div>
+                  </div>
+                  <div className="frame-1707480584-header">
+                    <div className="button-task-header" onClick={handleClose}>
+                      <img
+                        className="mdi-edit-outline-header"
+                        src="assets/images/radix-icons_cross-1.svg"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
           </Offcanvas.Header>
           <Offcanvas.Body>
             <div className="frame-1707480379">
               <div className="frame-1707480381">
-                <div className="add-user-Benefit_offconvax">
-                  Update User Benefit
+                <div className="frame-1707480381">
+                  <div className="benefit-details">Benefit Details</div>
                 </div>
               </div>
               <div className="w-100">

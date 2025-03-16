@@ -132,28 +132,140 @@ const cards: Card[] = [
     claimed: "Claimed",
     status: 3,
   },
+  {
+    day: 10,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 11,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 12,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 13,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 14,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 15,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 16,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 17,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 18,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 19,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 20,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 21,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 22,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 23,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 24,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 25,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 26,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 27,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
+  {
+    day: 28,
+    imageSrc: "assets/images/fire.svg",
+    claimed: "Claimed",
+    status: 3,
+  },
 ];
-function DailyStreaksTab() {
+function ChallengeStreaksTab() {
   // card carousel dont touch this functionality \\
   const [currentIndex, setCurrentIndex] = useState(0);
   //   const cardsPerPage = 3;
 
   const nextCards = () => {
-    debugger;
     if (currentIndex < cards.length) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
     }
   };
 
   const prevCards = () => {
-    debugger;
     if (currentIndex > 0) {
       setCurrentIndex((prevIndex) => prevIndex - 1);
     }
   };
 
   const isPrevDisabled = currentIndex === 0;
-  const isNextDisabled = currentIndex === cards.length;
+  const isNextDisabled = currentIndex >= cards.length;
   // /////////////////////////////////////////////////// \\
   const [showHistory, setShowHistory] = useState<boolean>(false);
 
@@ -163,6 +275,91 @@ function DailyStreaksTab() {
   const handleShowHistory = () => {
     setShowHistory(true);
   };
+  const data = [
+    {
+      NumberOfAttempt: 1,
+      StartDate: "20 Dec, 2024 / 10:27 AM",
+      EndDate: "20 Dec, 2024 / 10:27 AM",
+      Status: "In Progress",
+      Days: "--",
+      EarnedPoints: "50",
+    },
+    {
+      NumberOfAttempt: 1,
+      StartDate: "20 Dec, 2024 / 10:27 AM",
+      EndDate: "20 Dec, 2024 / 10:27 AM",
+      Status: "completed",
+      Days: "--",
+      EarnedPoints: "50",
+    },
+    {
+      NumberOfAttempt: 1,
+      StartDate: "20 Dec, 2024 / 10:27 AM",
+      EndDate: "20 Dec, 2024 / 10:27 AM",
+      Status: "break",
+      Days: "--",
+      EarnedPoints: "50",
+    },
+  ];
+  const TableComponent1 = () => {
+    return (
+      <>
+        <div className="w-100" id="dailystreakTab">
+          <table className="">
+            <thead>
+              <tr>
+                <th className="pad"> No.Attempt</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Days</th>
+                <th>Points Earned</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.slice(0, 2).map((item) => (
+                <>
+                  <tr>
+                    <td data-title=" No.Attempt" className="pad">
+                      <div>{item.NumberOfAttempt}</div>
+                    </td>
+                    <td data-title="Start Date">
+                      <div>{item.StartDate}</div>
+                    </td>
+                    <td data-title="Start Date">
+                      <div>{item.EndDate}</div>
+                    </td>
+                    <td data-title="End Date">
+                      <div>
+                        {item.Status === "In Progress" && (
+                          <div className="frame-1707480267">
+                            <div className="in-progress">In Progress</div>
+                          </div>
+                        )}
+                        {item.Status === "Completed" && (
+                          <div className="frame-1707480267">
+                            <div className="completed">Completed</div>
+                          </div>
+                        )}
+                        {item.Status === "Break" && (
+                          <div className="frame-1707480267">
+                            <div className="break">Break</div>
+                          </div>
+                        )}
+                      </div>
+                    </td>
+                    <td data-title="Points Earned">
+                      <div>{item.EarnedPoints}</div>
+                    </td>
+                  </tr>
+                </>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </>
+    );
+  };
+
   return (
     <>
       <div className="page_wrapper-daily-streaks">
@@ -405,106 +602,76 @@ function DailyStreaksTab() {
         show={showHistory}
         onHide={handleCloseHistory}
         backdrop="static"
-        backdropClassName="backtrop_fade_color"
+        backdropClassName="backtrop_fade_color hello"
         className="Offcanvas_daily_streak"
       >
-        <Offcanvas.Header>
-          <div
-            className="cancel-daily-streak-challenge-streak"
-            onClick={handleCloseHistory}
-          >
-            <img src="assets/images/offcanvas-close-daily-streak.svg" />
-          </div>
+        <Offcanvas.Header className="offcanvas_header">
+          <>
+            <div className="frame-1000002761-header">
+              <div className="frame-1707480551-header">
+                <div className="frame-1000002997-header">
+                  <div className="frame-1000003004-header">
+                    <div className="view-task-task-header">View History</div>
+                  </div>
+                </div>
+                <div className="frame-1707480584-header">
+                  <div
+                    className="button-task-header"
+                    onClick={handleCloseHistory}
+                  >
+                    <img
+                      className="mdi-edit-outline-header"
+                      src="assets/images/radix-icons_cross-1.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <div className="frame-1707480274_view_history-challenge-streak">
-            <div className="frame-1707480394-challenge-streak">
-              <div className="streak-history-challenge-streak">
-                Streak History
-              </div>
-              <div className="frame-1707480261-challenge-streak">
-                <div className="frame-1707480218-challenge-streak">
-                  <div className="frame-1707480223-challenge-streak">
-                    <div className="frame-1707480332-challenge-streak">
-                      <div className="log-in-points-challenge-streak">
-                        LOG IN POINTS :
-                      </div>
-                      <div className="frame-1707480268-challenge-streak">
-                        <div className="_50-challenge-streak">50</div>
-                      </div>
-                    </div>
-                    <div className="frame-1707480333-challenge-streak">
-                      <div className="level-points-challenge-streak">
-                        LEVEL POINTS :
-                      </div>
-                      <div className="frame-1707480268-challenge-streak">
-                        <div className="_50-challenge-streak">50</div>
-                      </div>
-                    </div>
-                    <div className="frame-1707480334-challenge-streak">
-                      <div className="bonus-points-challenge-streak">
-                        BONUS POINTS :
-                      </div>
-                      <div className="_50-challenge-streak">50</div>
-                    </div>
-                  </div>
-                  <div className="frame-9-challenge-streak">
-                    <div className="frame-1-challenge-streak">
-                      <div className="number-of-attempt-challenge-streak">
-                        Number. Of Attempt
-                      </div>
-                    </div>
-                    <div className="frame-2-challenge-streak">
-                      <div className="start-date-challenge-streak">
-                        Start Date
-                      </div>
-                    </div>
-                    <div className="frame-4-challenge-streak">
-                      <div className="end-date-challenge-streak">End Date</div>
-                    </div>
-                    <div className="frame-7-challenge-streak">
-                      <div className="status-challenge-streak">Status</div>
-                    </div>
-                    <div className="frame-8-challenge-streak">
-                      <div className="days">Days</div>
-                    </div>
-                    <div className="frame-92-challenge-streak">
-                      <div className="earned-points-challenge-streak">
-                        Earned Points
-                      </div>
-                    </div>
-                  </div>
-                  <div className="frame-9-challenge-streak-body">
-                    <div className="frame-1-challenge-streak">
-                      <div className="number-of-attempt-challenge-streak-body">
-                        1
-                      </div>
-                    </div>
-                    <div className="frame-2-challenge-streak">
-                      <div className="start-date-challenge-streak-body">
-                        7 Dec, 2024 at 05:51 PM
-                      </div>
-                    </div>
-                    <div className="frame-4-challenge-streak">
-                      <div className="end-date-challenge-streak-body">
-                        7 Dec, 2024 at 05:51 PM
-                      </div>
-                    </div>
-                    <div className="frame-7-challenge-streak">
-                      <div className="status-challenge-streak-body">
-                        In-Progress
-                      </div>
-                    </div>
-                    <div className="frame-8-challenge-streak">
-                      <div className="days">--</div>
-                    </div>
-                    <div className="frame-92-challenge-streak">
-                      <div className="earned-points-challenge-streak-body">
-                        50
+          <div className="frame-1707480274_view_history">
+            <div id="table">
+              <div className="frame-1707480241">
+                <div className="frame-1707480222">
+                  <div className="frame-1707480220">
+                    <div className="frame-1707480223">
+                      <div className="level-2">Level 2</div>
+                      <div className="frame-1707480225">
+                        <div className="frame-1707480226">
+                          <div className="frame-1707480188">
+                            <div className="earned-points">EARNED POINTS :</div>
+                          </div>
+                          <div className="frame-1707480268">
+                            <div className="_50">0</div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
+                <div className="frame-17074802232">
+                  <div className="frame-1707480332">
+                    <div className="log-in-points">LOG IN POINTS :</div>
+                    <div className="frame-1707480268">
+                      <div className="_40">40</div>
+                    </div>
+                  </div>
+                  <div className="frame-1707480333">
+                    <div className="level-points-daily_streak">
+                      LEVEL POINTS :
+                    </div>
+                    <div className="frame-1707480268">
+                      <div className="_20">20</div>
+                    </div>
+                  </div>
+                  <div className="frame-1707480334">
+                    <div className="bonus-points">BONUS POINTS :</div>
+                    <div className="_10">10</div>
+                  </div>
+                </div>
+                {/* table responsiveness */}
+                <TableComponent1 />
               </div>
             </div>
           </div>
@@ -514,4 +681,4 @@ function DailyStreaksTab() {
   );
 }
 
-export default DailyStreaksTab;
+export default ChallengeStreaksTab;

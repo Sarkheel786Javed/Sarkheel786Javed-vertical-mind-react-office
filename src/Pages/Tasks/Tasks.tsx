@@ -36,10 +36,112 @@ function Tasks() {
   };
 
   const [validLevelName, setValidLevelName] = useState<boolean>(false);
-  useEffect(()=>{
+  useEffect(() => {
     setValidLevelName(false);
-  },[])
- 
+  }, [])
+  const [taskTableData] = useState(
+    [
+      {
+        Name: "complete...",
+        Type: "complete...",
+        Points: 100,
+        level: "Level 1",
+        Bonus: 0,
+        LevelCriteria: 0,
+        LevelPoints: 1,
+        Status: 1,
+        status: "Actve",
+      },
+      {
+        Name: "complete...",
+        Type: "complete...",
+        Points: 100,
+        level: "Level 1",
+        Bonus: 0,
+        LevelCriteria: 0,
+        LevelPoints: 1,
+        Status: 2,
+        status: "Actve",
+      },
+      {
+        Name: "complete...",
+        Type: "complete...",
+        Points: 100,
+        level: "Level 1",
+        Bonus: 0,
+        LevelCriteria: 0,
+        LevelPoints: 1,
+        Status: 3,
+        status: "Actve",
+      },
+      {
+        Name: "complete...",
+        Type: "complete...",
+        Points: 100,
+        level: "Level 1",
+        Bonus: 0,
+        LevelCriteria: 0,
+        LevelPoints: 1,
+        Status: 1,
+        status: "Actve",
+      },
+      {
+        Name: "complete...",
+        Type: "complete...",
+        Points: 100,
+        level: "Level 1",
+        Bonus: 0,
+        LevelCriteria: 0,
+        LevelPoints: 1,
+        Status: 2,
+        status: "Actve",
+      },
+      {
+        Name: "complete...",
+        Type: "complete...",
+        Points: 100,
+        level: "Level 1",
+        Bonus: 0,
+        LevelCriteria: 0,
+        LevelPoints: 1,
+        Status: 3,
+        status: "Actve",
+      },
+      {
+        Name: "complete...",
+        Type: "complete...",
+        Points: 100,
+        level: "Level 1",
+        Bonus: 0,
+        LevelCriteria: 0,
+        LevelPoints: 1,
+        Status: 1,
+        status: "Actve",
+      },
+      {
+        Name: "complete...",
+        Type: "complete...",
+        Points: 100,
+        level: "Level 1",
+        Bonus: 0,
+        LevelCriteria: 0,
+        LevelPoints: 1,
+        Status: 2,
+        status: "Actve",
+      },
+      {
+        Name: "complete...",
+        Type: "complete...",
+        Points: 100,
+        level: "Level 1",
+        Bonus: 0,
+        LevelCriteria: 0,
+        LevelPoints: 1,
+        Status: 3,
+        status: "Actve",
+      },
+    ]
+  )
   return (
     <div>
       <div>
@@ -82,9 +184,9 @@ function Tasks() {
                         </div>
                       </div>
                     </div>
-                    <div className="table-responsive w-100">
-                      <table className="Table">
-                        <thead className="table_header">
+                    <div className="table-responsive w-100" id="table_header">
+                      <table className="Table" >
+                        <thead className="table_header" >
                           <tr>
                             <th
                               scope="col"
@@ -110,9 +212,9 @@ function Tasks() {
                             <td scope="col" className="Table_Head_column_Task-header">
                               Level Points
                             </td>
-                            <td scope="col" className="Table_Head_column_Task-header">
+                            {/* <td scope="col" className="Table_Head_column_Task-header">
                               Status
-                            </td>
+                            </td> */}
                             <td scope="col" className="Table_Head_column_Task-header">
                               Status
                             </td>
@@ -122,42 +224,48 @@ function Tasks() {
                           </tr>
                         </thead>
                         <tbody>
-                          <tr className="table_tr table_tr_bg">
-                            <td
-                              scope="row"
-                              className="ps-3 Table_Head_column_Task"
-                            >
-                              Complete...
-                            </td>
-                            <td className="Table_Head_column_Task">
-                              Complete...
-                            </td>
-                            <td className="Table_Head_column_Task">100</td>
-                            <td className="Table_Head_column_Task">Level 1</td>
-                            <td className="Table_Head_column_Task">0</td>
-                            <td className="Table_Head_column_Task">0</td>
-                            <td className="Table_Head_column_Task">1</td>
-                            <td className="Table_Head_column_Task">1</td>
-                            <td className="Table_Head_column_Task">
-                              <div className="d-flex justify-content-start align-items-center text-success">
-                                Active
-                              </div>
-                            </td>
-                            <td className="Table_Head_column_Task">
-                              <div className="text-decoration-none d-flex justify-content-start w-auto">
-                                <div
-                                  className="view-Details w-auto btn"
-                                  onClick={EditTaskhandleShow}
+                          {taskTableData.map((item) => (
+                            <>
+                              <tr className={`table_tr  ${item.Status === 3 && "table_tr_bg_task_table"}`}>
+                                <td
+                                  scope="row"
+                                  className="ps-3 Table_Head_column_Task"
                                 >
-                                  <div className="view">View</div>
-                                  <img
-                                    className="eye-2-1"
-                                    src="assets/images/eye (2) 1.svg"
-                                  />
-                                </div>
-                              </div>
-                            </td>
-                          </tr>
+                                  {item.Name}
+                                </td>
+                                <td className="Table_Head_column_Task">
+                                  {item.Type}
+                                </td>
+                                <td className="Table_Head_column_Task">{item.Points}</td>
+                                <td className="Table_Head_column_Task">{item.level}</td>
+                                <td className="Table_Head_column_Task">{item.Bonus}</td>
+                                <td className="Table_Head_column_Task">{item.LevelCriteria}</td>
+                                <td className="Table_Head_column_Task">{item.LevelPoints}</td>
+                                {/* <td className="Table_Head_column_Task">{item.Status}</td> */}
+                                <td className="Table_Head_column_Task">
+                                  <div className="d-flex justify-content-start align-items-center text-success">
+                                    {item.status}
+                                  </div>
+                                </td>
+                                <td className="Table_Head_column_Task">
+                                  <div className="text-decoration-none d-flex justify-content-start w-auto">
+                                    <div
+                                      className="view-Details w-auto btn"
+                                      onClick={EditTaskhandleShow}
+                                    >
+                                      <div className="view">View</div>
+                                      <img
+                                        className="eye-2-1"
+                                        src="assets/images/eye (2) 1.svg"
+                                      />
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </>
+                          ))}
+
+
                         </tbody>
                       </table>
                     </div>
@@ -320,9 +428,8 @@ function Tasks() {
                   <div className="frame-1707480228">
                     <div className="label4 ">Switch</div>
                     <div
-                      className={`${
-                        switchOn ? "property-1-default" : "property-1-variant-2"
-                      }`}
+                      className={`${switchOn ? "property-1-default" : "property-1-variant-2"
+                        }`}
                       style={{ transition: "0.4s ease-in-out" }}
                       onClick={handleAddSwitch}
                     >
@@ -363,18 +470,16 @@ function Tasks() {
                   <div className="frame-1707480228">
                     <div className="label4 ">Add Level</div>
                     <div
-                      className={`${
-                        switchOnAddLevel
-                          ? "property-1-default"
-                          : "property-1-variant-2"
-                      }`}
+                      className={`${switchOnAddLevel
+                        ? "property-1-default"
+                        : "property-1-variant-2"
+                        }`}
                       style={{ transition: "0.4s ease-in-out" }}
                       onClick={handleSwitchAddLevel}
                     >
                       <div
-                        className={`${
-                          switchOnAddLevel ? "ellipseon" : "ellipseoff"
-                        }`}
+                        className={`${switchOnAddLevel ? "ellipseon" : "ellipseoff"
+                          }`}
                         style={{ transition: "0.4s ease-in-out" }}
                       />
                       <div
@@ -411,9 +516,8 @@ function Tasks() {
                       <span className="label-2-span4">*</span>
                       <input
                         type="test"
-                        className={` w-100 ${
-                          validLevelName ? "form-control" : "isInValid"
-                        }`}
+                        className={` w-100 ${validLevelName ? "form-control" : "isInValid"
+                          }`}
                         placeholder="Level name"
                       />
                       {!validLevelName && (
@@ -538,13 +642,13 @@ function Tasks() {
                       <div className="frame-13_view_task">
                         <div className="name_view_task">Name</div>
                       </div>
-                      <div className="frame-15_view_task">
+                      <div className="frame-13_view_task">
                         <div className="criteria_view_task">Criteria</div>
                       </div>
-                      <div className="frame-17_view_task">
+                      <div className="frame-13_view_task">
                         <div className="points_view_task">Points</div>
                       </div>
-                      <div className="frame-12_view_task">
+                      <div className="frame-13_view_task">
                         <div className="actions_view_task">Actions</div>
                       </div>
                     </div>
@@ -552,13 +656,13 @@ function Tasks() {
                       <div className="frame-13_view_task">
                         <div className="one-day-a_view_task">One day a...</div>
                       </div>
-                      <div className="frame-15_view_task">
+                      <div className="frame-13_view_task">
                         <div className="_1_view_task">1</div>
                       </div>
-                      <div className="frame-17_view_task">
+                      <div className="frame-13_view_task">
                         <div className="_4_view_task">4</div>
                       </div>
-                      <div className="frame-1707480216_view_task">
+                      <div className="frame-13_view_task">
                         <div className="frame-1707480208_view_task">
                           <div className="edit_view_task">
                             <img
@@ -582,7 +686,7 @@ function Tasks() {
 
             <div className="frame-1707480253 mt-2">
               <div className="back">
-                <div className="back2" onClick={AddTaskhandleClose}>
+                <div className="back2" onClick={() => [setShowEditTask(true), setShowAddTask(false)]}>
                   Cancel
                 </div>
               </div>
@@ -677,7 +781,7 @@ function Tasks() {
                     </div>
                   </div>
                 </div>
-                <div className="frame-1000003144_view_task">
+                {/*  <div className="frame-1000003144_view_task">
                   <div className="duration_view_task">
                     <div className="frame-1000003156_view_task">
                       <div className="label_view_task">Status:</div>
@@ -738,7 +842,7 @@ function Tasks() {
                   <div className="icon-left-text_view_task">
                     <div className="placeholder4_view_task">0</div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="rectangle-40508_view_task" />
               <div className="frame-1707480554_view_task">
@@ -746,44 +850,31 @@ function Tasks() {
                 <div className="table_view_task">
                   <div className="frame-1707480218_view_task">
                     <div className="frame-9_view_task">
-                      <div className="frame-13_view_task">
+                      <div className="frame-13_view_task2">
                         <div className="name_view_task">Name</div>
                       </div>
-                      <div className="frame-15_view_task">
-                        <div className="criteria_view_task">Criteria</div>
+                      <div className="frame-13_view_task2">
+                        <div className="name_view_task">Criteria</div>
                       </div>
-                      <div className="frame-17_view_task">
-                        <div className="points_view_task">Points</div>
+                      <div className="frame-13_view_task2">
+                        <div className="name_view_task">Points</div>
                       </div>
-                      <div className="frame-12_view_task">
-                        <div className="actions_view_task">Actions</div>
+                      <div className="frame-13_view_task2">
+                        <div className="name_view_task">Bonus</div>
                       </div>
                     </div>
                     <div className="frame-1707480222_view_task">
-                      <div className="frame-13_view_task">
+                      <div className="frame-13_view_task2">
                         <div className="one-day-a_view_task">One day a...</div>
                       </div>
-                      <div className="frame-15_view_task">
-                        <div className="_1_view_task">1</div>
+                      <div className="frame-13_view_task2">
+                        <div className="one-day-a_view_task">1</div>
                       </div>
-                      <div className="frame-17_view_task">
-                        <div className="_4_view_task">4</div>
+                      <div className="frame-13_view_task2">
+                        <div className="one-day-a_view_task">4</div>
                       </div>
-                      <div className="frame-1707480216_view_task">
-                        <div className="frame-1707480208_view_task">
-                          <div className="edit_view_task">
-                            <img
-                              className="group_view_task"
-                              src="assets/images/task-level-edit.svg"
-                            />
-                          </div>
-                        </div>
-                        <div className="frame-1707480209_view_task">
-                          <img
-                            className="delete_view_task"
-                            src="assets/images/task-level-delete.svg"
-                          />
-                        </div>
+                      <div className="frame-13_view_task2">
+                        <div className="one-day-a_view_task">4</div>
                       </div>
                     </div>
                   </div>

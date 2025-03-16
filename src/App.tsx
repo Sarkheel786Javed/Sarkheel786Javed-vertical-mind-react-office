@@ -10,6 +10,10 @@ import Benefits from "./Pages/Benefits/Benefits.tsx";
 import BenefitRewardAchivement from "./Pages/BenefitRewardAchivement/BenefitRewardAchivement.tsx";
 import EarnedPointsDashboard from "./Pages/EarnedPointsDashboard/EarnedPointsDashboard.tsx";
 import Challenge from "./Pages/Challenge/Challenge.tsx";
+import ErrorPage from "./Pages/ErrorPage/ErrorPage.tsx";
+import Question from "./Pages/Question/Question.tsx";
+import Board from "./Pages/Board/Board.tsx";
+import Topic from "./Pages/Topic/Topic.tsx";
 function App() {
   return (
     <div className="App">
@@ -20,6 +24,38 @@ function App() {
             element={
               <Layout>
                 <Dashboard />
+              </Layout>
+            }
+          />
+          <Route
+            path="/question"
+            element={
+              <Layout>
+                <Question />
+              </Layout>
+            }
+          />
+          <Route
+            path="/board"
+            element={
+              <Layout>
+                <Board />
+              </Layout>
+            }
+          />
+          <Route
+            path="/topic"
+            element={
+              <Layout>
+                <Topic />
+              </Layout>
+            }
+          />
+          <Route
+            path="*"
+            element={
+              <Layout>
+                <ErrorPage />
               </Layout>
             }
           />

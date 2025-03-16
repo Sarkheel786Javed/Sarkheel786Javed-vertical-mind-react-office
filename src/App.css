@@ -24,7 +24,24 @@ code {
   --fontSize: 12px;
   --border-radius: 24px;
 }
-
+.ellipse_text {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (max-width:767px) {
+  .ellipse_text {
+    width: 60%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
 .fs-7 {
   font-size: var(--fontSize);
 }
@@ -119,6 +136,8 @@ code {
   border-style: solid;
   border-color: var(--light-grey, #dcdcdc);
   border-width: 0px 0px 1px 0px;
+  color: #140446;
+  font-size: 20px;
 }
 
 .offcanvas.show .frame-1000002761-header {
