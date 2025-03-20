@@ -9,7 +9,7 @@ function Navbar() {
   const [hovered, setHovered] = useState<boolean>(false);
 
   const path = [
-    // "/question",
+    "/question",
     // "/topic",
     "/board",
     "/Benefit",
@@ -93,8 +93,7 @@ function Navbar() {
               onClick={toggleMenu}
             >
               <div
-                className={`table-top-bar ${hovered ? "dropdown_active" : "dropdown_unactive"
-                  }`}
+                className={`table-top-bar ${hovered ? "dropdown_active" : "dropdown_unactive"}`}
                 style={{
                   backgroundColor: hovered ? "#0b8a44" : "transparent",
                   transition: "background-color 0.3s ease-in-out",
@@ -103,41 +102,37 @@ function Navbar() {
                 <div className="point-summary">
                   <div className="frame-1707480279">
                     <div
-                      className={`task-management ${hovered ? "text-light" : "text-dark"
-                        }`}
+                      className={`task-management ${hovered ? "text-light" : "text-dark"}`}
                     >
                       Task Management
                     </div>
                     <img
                       className="arrow-drop-down"
-                      src={
-                        hovered
-                          ? "assets/images/Navbar/arrow_drop_down_white.svg"
-                          : "assets/images/Navbar/arrow_drop_down.svg"
-                      }
-                      alt="Arrow"
-                    />
+                      src={hovered
+                        ? "assets/images/Navbar/arrow_drop_down_white.svg"
+                        : "assets/images/Navbar/arrow_drop_down.svg"}
+                      alt="Arrow" />
                   </div>
                 </div>
               </div>
               {showSubChild && (
                 <ul className="sub_child ">
                   {/* <NavLink
-                    to="/topic"
-                    className="nav-item text-decoration-none"
-                  >
-                    <div className="nav-item2">
-                      <div className="nav-item3">Topic </div>
-                    </div>
-                  </NavLink> */}
-                  {/* <NavLink
+                      to="/topic"
+                      className="nav-item text-decoration-none"
+                    >
+                      <div className="nav-item2">
+                        <div className="nav-item3">Topic </div>
+                      </div>
+                    </NavLink> */}
+                  <NavLink
                     to="/question"
                     className="nav-item text-decoration-none"
                   >
                     <div className="nav-item2">
                       <div className="nav-item3">Question </div>
                     </div>
-                  </NavLink> */}
+                  </NavLink>
                   <NavLink
                     to="/Benefit"
                     className="nav-item text-decoration-none"
@@ -229,7 +224,6 @@ function Navbar() {
       </Offcanvas>
     );
   };
-
   return (
     <div className="navbar">
       <Link to="/" className="text-decoration-none">
@@ -246,11 +240,20 @@ function Navbar() {
         type="button"
         onClick={handleShow}
       >
-        <img
-          src="assets/images/Navbar/ri_menu-3-fill.svg"
-          alt=""
-          className=""
-        />
+        {location.pathname === "/question" ? (
+          <>
+            <img src="assets/images/Navbar/profile_icon.svg" alt="" className="" />
+          </>
+        ) : (
+          <>
+            <img
+              src="assets/images/Navbar/ri_menu-3-fill.svg"
+              alt=""
+              className=""
+            />
+          </>
+        )}
+
       </button>
       <div className="wrapper">
         <div className="content">
@@ -352,14 +355,14 @@ function Navbar() {
                     <div className="nav-item3">Board </div>
                   </div>
                 </NavLink>
-                {/* <NavLink
+                <NavLink
                   to="/question"
                   className="nav-item text-decoration-none"
                 >
                   <div className="nav-item2">
                     <div className="nav-item3">Question </div>
                   </div>
-                </NavLink> */}
+                </NavLink>
                 <NavLink
                   to="/Benefit"
                   className="nav-item text-decoration-none"
