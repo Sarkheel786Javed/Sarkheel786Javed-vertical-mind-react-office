@@ -1,4 +1,33 @@
-.footer {
+.frame-1707480648 {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px 0px 0px 0px;
+  padding: 16px 40px 16px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: white;
+}
+.footer-left {
+  color: var(--neutral-600, #6f6c90);
+  text-align: center;
+  font-family: var(
+    --paragraph-default-font-family,
+    "DmSans-Regular",
+    sans-serif
+  );
+  font-size: var(--paragraph-default-font-size, 18px);
+  line-height: var(--paragraph-default-line-height, 30px);
+  font-weight: var(--paragraph-default-font-weight, 400);
+  position: relative;
+  width: 443.13px;
+}
+
+
+/* .footer {
   background: #112f82;
   padding: 48px 40px 48px 40px;
   display: flex;
@@ -296,4 +325,4 @@ a:hover {
 
 
 
-}
+} */

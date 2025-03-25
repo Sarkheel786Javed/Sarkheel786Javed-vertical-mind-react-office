@@ -13,7 +13,8 @@ import Challenge from "./Pages/Challenge/Challenge.tsx";
 import ErrorPage from "./Pages/ErrorPage/ErrorPage.tsx";
 import Question from "./Pages/Question/Question.tsx";
 import Board from "./Pages/Board/Board.tsx";
-import Topic from "./Pages/Topic/Topic.tsx";
+import Practice from "./Pages/Practice/Practice.tsx";
+import PracticeQuestion from "./Pages/PracticeQuestion/PracticeQuestion.tsx";
 function App() {
   return (
     <div className="App">
@@ -44,10 +45,18 @@ function App() {
             }
           />
           <Route
-            path="/topic"
+            path="/Practice"
             element={
               <Layout>
-                <Topic />
+                <Practice />
+              </Layout>
+            }
+          />
+          <Route
+            path="/PracticeQuestion"
+            element={
+              <Layout>
+                <PracticeQuestion />
               </Layout>
             }
           />

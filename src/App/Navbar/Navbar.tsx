@@ -10,7 +10,7 @@ function Navbar() {
 
   const path = [
     "/question",
-    // "/topic",
+    "/Practice",
     "/board",
     "/Benefit",
     "/Benefit-Reward-Achievement",
@@ -117,14 +117,14 @@ function Navbar() {
               </div>
               {showSubChild && (
                 <ul className="sub_child ">
-                  {/* <NavLink
-                      to="/topic"
+                  <NavLink
+                      to="/Practice"
                       className="nav-item text-decoration-none"
                     >
                       <div className="nav-item2">
-                        <div className="nav-item3">Topic </div>
+                        <div className="nav-item3">Practice </div>
                       </div>
-                    </NavLink> */}
+                    </NavLink>
                   <NavLink
                     to="/question"
                     className="nav-item text-decoration-none"
@@ -339,14 +339,14 @@ function Navbar() {
                 className="dropdown-menu rounded-0 show"
                 aria-labelledby="dropdownMenuButton1"
               >
-                {/* <NavLink
-                  to="/topic"
+                <NavLink
+                  to="/Practice"
                   className="nav-item text-decoration-none"
                 >
                   <div className="nav-item2">
-                    <div className="nav-item3">Topic </div>
+                    <div className="nav-item3">Practice </div>
                   </div>
-                </NavLink> */}
+                </NavLink>
                 <NavLink
                   to="/board"
                   className="nav-item text-decoration-none"

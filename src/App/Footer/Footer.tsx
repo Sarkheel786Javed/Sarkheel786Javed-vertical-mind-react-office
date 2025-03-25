@@ -1,10 +1,17 @@
-import { Link, useLocation } from "react-router";
+// import { Link, useLocation } from "react-router";
 import "../../styles/Footer.css";
 function Footer() {
-  const locations = useLocation();
+  // const locations = useLocation();
   return (
     <div className="footer">
-      <div className="contents">
+      <div className="frame-1707480648">
+        <div className="footer-left">
+          All content of this website are © 2025 Vertical Minds
+        </div>
+      </div>
+
+
+      {/* <div className="contents">
         <div className="columns">
           <div className="column-1">
             <div className="info">
@@ -84,7 +91,8 @@ function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
     </div>
   );
 }
