@@ -1,0 +1,2573 @@
+._123_PracticeQuestion {
+    background: #f4f8f9;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: calc(100vh - 164px);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    border-bottom: 1px solid #D9DBE9;
+}
+
+.frame-1707480635_PracticeQuestion {
+    width: calc(100% - 320px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+
+.question_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    padding: 60px 100px 0px 100px;
+}
+
+.frame-1707480628_PracticeQuestion {
+    background: rgba(4, 99, 46, 0.03);
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+    width: 320px;
+    height: calc(100vh - 164px);
+    padding: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.score-0_PracticeQuestion {
+    color: #171a1f;
+    text-align: center;
+    font-family: "-", sans-serif;
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.score-0-span4_PracticeQuestion {
+    color: #171a1f;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.score-0-span5_PracticeQuestion {
+    color: #171a1f;
+    font-family: "Poppins-Light", sans-serif;
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.score-0-span6_PracticeQuestion {
+    color: #171a1f;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 32px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.frame-1707480631_PracticeQuestion {
+    width: 100%;
+    height: 84px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.cover_PracticeQuestion_and_answer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0px 100px 0px 100px;
+    height: calc(100vh - 443px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.frame-1707479482_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 34px;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+    height: calc(100vh - 289.99px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+}
+
+.frame-1707480629_PracticeQuestion {
+    width: auto;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.attempted_PracticeQuestion {
+    color: #171a1f;
+    text-align: left;
+    font-family: "Poppins-Light", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.do-you-use-any-of-thesetools_PracticeQuestion {
+    width: 100%;
+    color: #0a1f53;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707480630_PracticeQuestion {
+    width: auto;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.unattempt_PracticeQuestion {
+    color: #171a1f;
+    font-family: "Poppins-Light", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.do-you-use-any-of-thesetools2_PracticeQuestion {
+    color: #0a1f53;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 600;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479460_PracticeQuestion {
+    background: #009146;
+    border-radius: 22px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._1_PracticeQuestion {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479461_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: #04813c;
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+    box-shadow: 0px 0px 9px 0px rgba(4, 129, 60, 1);
+}
+
+._2_PracticeQuestion {
+    color: #04813c;
+    text-align: left;
+    font-family: "Manrope-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479462_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: #E30E0E;
+    background-color: #E30E0E;
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._3Wrong_PracticeQuestion {
+    color: #FFFFFF;
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-text-stroke: 1px transparent;
+}
+
+._3_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479463_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: #091B48;
+    background-color: #091B48;
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._4_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479464_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._5_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479465_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._6_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479466_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._7_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479467_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._8_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479468_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._9_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479469_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+
+
+.frame-1707479470_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._11_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479471_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._12_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479472_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._13_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479473_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._14_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479474_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._15_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479475_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._16_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479476_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._17_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479477_PracticeQuestion {
+    border-radius: 22px;
+    border-style: solid;
+    border-color: rgba(23, 26, 31, 0.72);
+    border-width: 1px;
+    padding: 9px 16px 9px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+
+._18_PracticeQuestion {
+    color: rgba(23, 26, 31, 0.72);
+    text-align: left;
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479481_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-top: 20px;
+}
+
+.back_PracticeQuestion {
+    background: #fefefe;
+    border-radius: 26px;
+    border-style: solid;
+    border-color: #009146;
+    color: #009146;
+    border-width: 1px;
+    padding: 12px 28px 12px 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 130px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.back_PracticeQuestion:hover {
+    background: #009146;
+    border-radius: 26px;
+    border-style: solid;
+    border-color: #009146;
+    color: #fefefe;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+}
+
+.caret-left_PracticeQuestion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 19px;
+    height: 18px;
+    position: relative;
+    overflow: visible;
+}
+
+.back2_PracticeQuestion {
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+    position: relative;
+}
+
+.next_PracticeQuestion {
+    background: #009146;
+    border-radius: 24px;
+    padding: 12px 28px 12px 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 130px;
+    height: 47px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.next_PracticeQuestion:hover {
+    background: #009146cf;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 47px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+}
+
+.next2_PracticeQuestion {
+    color: #fefeff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+    position: relative;
+}
+
+.caret-right_PracticeQuestion {
+    flex-shrink: 0;
+    width: 19px;
+    height: 19px;
+    position: relative;
+    overflow: visible;
+}
+
+.title_PracticeQuestion {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    width: auto;
+    position: relative;
+}
+
+.do-you-use-any-of-thesetools3_PracticeQuestion {
+    color: #171a1f;
+    text-align: center;
+    font-family: "Manrope-Bold", sans-serif;
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 700;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+}
+
+.do-you-use-any-of-thesetools_PracticeQuestion {
+    color: #1877f2;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: 500;
+    text-decoration: underline;
+    position: relative;
+    /* transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1); */
+}
+
+.frame-1707479480_PracticeQuestion {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 166px;
+    position: relative;
+    cursor: pointer;
+}
+
+.time-remaining_PracticeQuestion {
+    color: #171a1f;
+    text-align: right;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.do-you-use-any-of-thesetools4_PracticeQuestion {
+    color: #e5484d;
+    text-align: right;
+    font-family: "NotoSansMath-Regular", sans-serif;
+    font-size: 53px;
+    line-height: 86px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+}
+
+.frame-1707480634_PracticeQuestion {
+    width: 100%;
+    height: 336px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.answer_PracticeQuestion {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 787px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+/* choices */
+
+.frame-1707480093_PracticeQuestion {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.frame-1707479456_PracticeQuestion {
+    background: rgba(227, 14, 14, 0.16);
+    border-radius: 34px;
+    border-style: solid;
+    border-color: #e30e0e;
+    border-width: 1px;
+    padding: 16px 8px 16px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 602px;
+    height: 56px;
+    position: relative;
+}
+
+.frame-1707480731_PracticeQuestion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 81px;
+    position: relative;
+}
+
+.frame-1707480730_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.radio-button-1_PracticeQuestion {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+.frame-4_PracticeQuestion {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    aspect-ratio: 1;
+}
+
+.ellipse-2_PracticeQuestionwrong {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #e30e0e;
+    border-width: 2px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ellipse-1_PracticeQuestionwrong {
+    background: #e30e0e;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: relative;
+}
+
+.ellipse-2_PracticeQuestion {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #BDC1CA;
+    border-width: 2px;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.a-10_PracticeQuestion {
+    text-align: left;
+    font-family: "-", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.a-10-span_PracticeQuestion {
+    color: #000000;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.a-10-span2_PracticeQuestion {
+    color: rgba(0, 0, 0, 0.72);
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.frame-1707480902_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    width: auto;
+    position: relative;
+}
+
+.frame-1707480743_PracticeQuestion {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #e30e0e;
+    border-width: 1px;
+    padding: 16px 12px 16px 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrong_PracticeQuestion {
+    color: #e30e0e;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707480734_PracticeQuestion {
+    background: #e30e0e;
+    border-radius: 100px;
+    padding: 16px 0px 16px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 64px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+._20_PracticeQuestion {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479453_PracticeQuestion {
+    background: #ffffff;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: rgba(114, 114, 114, 0.24);
+    border-width: 1px;
+    padding: 16px 8px 16px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 602px;
+    height: 56px;
+    position: relative;
+}
+
+.frame-17074807342_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.component-3_PracticeQuestion {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+
+.b-24_PracticeQuestion {
+    text-align: left;
+    font-family: "-", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.b-24-span_PracticeQuestion {
+    color: #000000;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.b-24-span2_PracticeQuestion {
+    color: rgba(0, 0, 0, 0.72);
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.frame-1707480733_PracticeQuestion {
+    background: #3794ef;
+    border-radius: 100px;
+    padding: 16px 0px 16px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 64px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+._10_PracticeQuestion {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479454_PracticeQuestion {
+    background: #ffffff;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: rgba(114, 114, 114, 0.24);
+    border-width: 1px;
+    padding: 16px 8px 16px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 602px;
+    height: 56px;
+    position: relative;
+}
+
+.frame-1707480735_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.component-32_PracticeQuestion {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+
+.c-40_PracticeQuestion {
+    text-align: left;
+    font-family: "-", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.c-40-span_PracticeQuestion {
+    color: #000000;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.c-40-span2_PracticeQuestion {
+    color: rgba(0, 0, 0, 0.72);
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.frame-17074807332_PracticeQuestion {
+    background: #868686;
+    border-radius: 100px;
+    padding: 16px 0px 16px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 64px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+._30_PracticeQuestion {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707479455_PracticeQuestion {
+    background: #ffffff;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: rgba(114, 114, 114, 0.24);
+    border-width: 1px;
+    padding: 16px 8px 16px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 602px;
+    height: 56px;
+    position: relative;
+}
+
+.frame-1707480742_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.component-33_PracticeQuestion {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+
+.d-36_PracticeQuestion {
+    color: #0a1d4c;
+    text-align: left;
+    font-family: "-", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.d-36-span_PracticeQuestion {
+    color: #0a1d4c;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.d-36-span2_PracticeQuestion {
+    color: #0a1d4c;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.frame-1707480903_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    width: auto;
+    position: relative;
+}
+
+.frame-17074807432_PracticeQuestion {
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #009146;
+    border-width: 1px;
+    padding: 16px 12px 16px 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.correct_PracticeQuestion {
+    color: #009146;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707480744_PracticeQuestion {
+    background: #009146;
+    border-radius: 100px;
+    padding: 16px 0px 16px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 64px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+._70_PracticeQuestion {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+/* ////////////////////////////////////////////// */
+.frame-1707480093_PracticeQuestion {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+.component-3_PracticeQuestion {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+
+
+.frame-1707480633_PracticeQuestion {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.question_PracticeQuestion {
+    color: #171a1f;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 787px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.a-school-has-2-male-teachers-and-11-female-teachers-there-are-a-school-has-2-male-teachers-and-11-female-teachers-there-are-a-school-has-2-male-teachers-and-11-female-teachers-there-are-a-school-has-2-male-teachers-and-11-female-teachers-there-are_PracticeQuestion {
+    color: #151b4a;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    margin-top: 40px;
+}
+
+
+.bottom-btn_PracticeQuestion {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 10px 100px 0px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.move_PracticeQuestion_button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.move_PracticeQuestion_colors {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+.back3_PracticeQuestion {
+    background: #0a1d4e;
+    border-radius: 24px;
+    padding: 12px 32px 12px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.back3_PracticeQuestion:hover {
+    background: #0a1d4ecb;
+    border-radius: 24px;
+    padding: 12px 32px 12px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    overflow: hidden;
+}
+
+.back4_PracticeQuestion {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Manrope-Medium", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+
+.back5_PracticeQuestion {
+    background: #009146;
+    border-radius: 24px;
+    padding: 12px 32px 12px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.back5_PracticeQuestion:hover {
+    background: #009146cd;
+    border-radius: 24px;
+    padding: 12px 32px 12px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    overflow: hidden;
+}
+
+.group-237466_PracticeQuestion {
+    position: absolute;
+    inset: 0;
+}
+
+.group-237466_colors_PracticeQuestion {
+    position: relative;
+}
+
+.frame-1707480647_colors_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.frame-1707479485_colors_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.ellipse-123_colors_PracticeQuestion {
+    background: #009146;
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+.ellipse-123_colors_incorrect_PracticeQuestion {
+    background: #E30E0E;
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+.back_colors_PracticeQuestion {
+    color: #171a1f;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+}
+
+/* like dislike comment etc  */
+.frame-1707480778_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    margin-top: 40px;
+    padding: 0px 100px 0px 100px;
+}
+
+.frame-1707480778_PracticeQuestion2 {
+    display: none;
+}
+
+.frame-1707480815_PracticeQuestion {
+    background: #f7f7f7;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 44px;
+    position: relative;
+}
+
+.frame-1707480722_PracticeQuestion {
+    border-radius: 34px 0px 0px 34px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 1px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 64px;
+    height: 44px;
+    position: relative;
+}
+
+.social-network-1_PracticeQuestion {
+    flex-shrink: 0;
+    width: 21px;
+    height: 21px;
+    position: relative;
+    overflow: visible;
+    aspect-ratio: 1;
+}
+
+.frame-1707480721_PracticeQuestion {
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 1px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 64px;
+    height: 44px;
+    position: relative;
+}
+
+.thumbs-down-1_PracticeQuestion {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+    aspect-ratio: 1;
+}
+
+.frame-1707480720_PracticeQuestion {
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 1px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 64px;
+    height: 44px;
+    position: relative;
+}
+
+.comment-dots-1_PracticeQuestion {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+    aspect-ratio: 1;
+}
+
+.frame-1707480724_PracticeQuestion {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 64px;
+    height: 44px;
+    position: relative;
+}
+
+.bookmark-1-1_PracticeQuestion {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+    aspect-ratio: 1;
+}
+
+.back_view_solution_PracticeQuestion {
+    background: #f0f0f0;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: auto;
+    padding: 0px 20px;
+    height: 44px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+    color: #171a1f;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.back_view_solution_PracticeQuestion:hover {
+    background: #009146;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: #009146;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    overflow: hidden;
+    color: #FFFFFF;
+
+}
+
+.back2_view_solution_PracticeQuestion {
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+}
+
+/* /////////////////////////////// */
+.frame-1707479484_colors_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.ellipse-1232_colors_PracticeQuestion {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #009146;
+    border-width: 2px;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+.frame-1707479486_colors_PracticeQuestion {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.ellipse-1233_colors_PracticeQuestion {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #091B48;
+    background-color: #091B48;
+    border-width: 2px;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+.frame-1707480648_PracticeQuestion {
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px 0px 0px 0px;
+    padding: 16px 40px 16px 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.footer-left_PracticeQuestion {
+    color: var(--neutral-600, #6f6c90);
+    text-align: center;
+    font-family: var(--paragraph-default-font-family,
+            "DmSans-Regular",
+            sans-serif);
+    font-size: var(--paragraph-default-font-size, 18px);
+    line-height: var(--paragraph-default-line-height, 30px);
+    font-weight: var(--paragraph-default-font-weight, 400);
+    position: relative;
+    width: 443.13px;
+}
+
+
+
+
+
+@media (min-width:1025px) {
+    .move_PracticeQuestion_colors {
+        margin-right: -60px;
+    }
+}
+
+@media (max-width:1024px) {
+    ._123_PracticeQuestion {
+        background: #f4f8f9;
+        align-self: stretch;
+        flex-shrink: 0;
+        height: calc(100vh - 164px);
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .frame-1707480635_PracticeQuestion {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .question_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        width: 100%;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .do-you-use-any-of-thesetools3_PracticeQuestion {
+        color: #171a1f;
+        text-align: center;
+        font-family: "Manrope-Bold", sans-serif;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 700;
+        position: relative;
+        transform-origin: 0 0;
+        transform: rotate(0deg) scale(1, 1);
+    }
+
+    .frame-1707479456_PracticeQuestion {
+        background: rgba(227, 14, 14, 0.16);
+        border-radius: 34px;
+        border-style: solid;
+        border-color: #e30e0e;
+        border-width: 1px;
+        padding: 16px 8px 16px 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        width: 70%;
+        height: 56px;
+        position: relative;
+    }
+
+    .frame-1707479453_PracticeQuestion {
+        border-radius: 34px;
+        border-style: solid;
+        border-color: rgba(114, 114, 114, 0.24);
+        border-width: 1px;
+        padding: 16px 8px 16px 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 13px;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        width: 70%;
+        height: 56px;
+        position: relative;
+    }
+
+    .frame-1707479454_PracticeQuestion {
+        background: #ffffff;
+        border-radius: 34px;
+        border-style: solid;
+        border-color: rgba(114, 114, 114, 0.24);
+        border-width: 1px;
+        padding: 16px 8px 16px 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        width: 70%;
+        height: 56px;
+        position: relative;
+    }
+
+    .frame-1707479455_PracticeQuestion {
+        background: #ffffff;
+        border-radius: 34px;
+        border-style: solid;
+        border-color: rgba(114, 114, 114, 0.24);
+        border-width: 1px;
+        padding: 16px 8px 16px 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        width: 70%;
+        height: 56px;
+        position: relative;
+    }
+
+    .time-remaining_PracticeQuestion {
+        color: #171a1f;
+        text-align: right;
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 600;
+        position: relative;
+        align-self: stretch;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        -webkit-text-stroke: 1px transparent;
+    }
+
+    .cover_PracticeQuestion_and_answer {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 0px 20px 0px 20px;
+        align-items: start;
+        height: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .frame-1707479480_PracticeQuestion {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: flex-end;
+        justify-content: flex-start;
+        width: auto;
+        position: relative;
+    }
+
+    .do-you-use-any-of-thesetools4_PracticeQuestion {
+        color: #e5484d;
+        text-align: right;
+        font-family: "NotoSansMath-Regular", sans-serif;
+        font-size: 230x;
+        line-height: 46px;
+        font-weight: 400;
+        position: relative;
+        align-self: stretch;
+        transform-origin: 0 0;
+        transform: rotate(0deg) scale(1, 1);
+    }
+
+    .bottom-btn_PracticeQuestion {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .frame-1707480778_PracticeQuestion2 {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+        margin-top: 20px;
+        padding: 0px 100px 0px 100px;
+    }
+
+    .frame-1707480778_PracticeQuestion {
+        display: none;
+    }
+
+    .frame-1707480628_PracticeQuestion {
+        background: rgba(4, 99, 46, 0.03);
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.1);
+        border-width: 1px;
+        width: 100%;
+        height: auto;
+        padding: 0 33px 33px 33px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .score-0_PracticeQuestion {
+        display: none;
+    }
+
+    .frame-1707479481_PracticeQuestion {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .frame-1707480631_PracticeQuestion {
+        display: none;
+        height: 0px;
+    }
+
+    .frame-1707479482_PracticeQuestion {
+        display: flex;
+        gap: 34px;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-top: 0px;
+        justify-content: flex-start;
+        align-content: center;
+        width: 100%;
+        height: 50px;
+        position: relative;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        margin-top: 22px;
+    }
+
+
+    .move_PracticeQuestion_button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .move_PracticeQuestion_colors {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 8px;
+    }
+
+    .frame-1707480648_PracticeQuestion {
+        border-style: solid;
+        border-color: transparent;
+        border-width: 1px 0px 0px 0px;
+        padding: 12px 40px 16px 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-left_PracticeQuestion {
+        color: var(--neutral-600, #6f6c90);
+        text-align: center;
+        font-family: var(--paragraph-default-font-family,
+                "DmSans-Regular",
+                sans-serif);
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        position: relative;
+        width: 443.13px;
+    }
+
+}
+
+@media (max-width:767px) {
+    ._123_PracticeQuestion {
+        background: #f4f8f9;
+        align-self: stretch;
+        flex-shrink: 0;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .frame-1707480635_PracticeQuestion {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .question_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        width: 100%;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .frame-1707479456_PracticeQuestion {
+        background: rgba(227, 14, 14, 0.16);
+        border-radius: 34px;
+        border-style: solid;
+        border-color: #e30e0e;
+        border-width: 1px;
+        padding: 16px 8px 16px 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        width: 100%;
+        height: 56px;
+        position: relative;
+    }
+
+    .frame-1707479453_PracticeQuestion {
+        border-radius: 34px;
+        border-style: solid;
+        border-color: rgba(114, 114, 114, 0.24);
+        border-width: 1px;
+        padding: 16px 16px 8px 16px 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 13px;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        width: 100%;
+        height: 56px;
+        position: relative;
+    }
+
+    .frame-1707479454_PracticeQuestion {
+        background: #ffffff;
+        border-radius: 34px;
+        border-style: solid;
+        border-color: rgba(114, 114, 114, 0.24);
+        border-width: 1px;
+        padding: 16px 8px 16px 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        width: 100%;
+        height: 56px;
+        position: relative;
+    }
+
+    .frame-1707479455_PracticeQuestion {
+        background: #ffffff;
+        border-radius: 34px;
+        border-style: solid;
+        border-color: rgba(114, 114, 114, 0.24);
+        border-width: 1px;
+        padding: 16px 8px 16px 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        width: 100%;
+        height: 56px;
+        position: relative;
+    }
+
+    .do-you-use-any-of-thesetools3_PracticeQuestion {
+        color: #171a1f;
+        text-align: center;
+        font-family: "Manrope-Bold", sans-serif;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 700;
+        position: relative;
+        transform-origin: 0 0;
+        transform: rotate(0deg) scale(1, 1);
+    }
+
+    .frame-1707480778_PracticeQuestion2 {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+        margin-top: 20px;
+        padding: 0px 100px 0px 100px;
+    }
+
+    .frame-1707480778_PracticeQuestion {
+        display: none;
+    }
+
+    .back_view_solution_PracticeQuestion {
+        background: #f0f0f0;
+        border-radius: 34px;
+        border-style: solid;
+        border-color: #e0e9f0;
+        border-width: 1px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 224px;
+        padding: 0px 20px;
+        height: 44px;
+        position: relative;
+        transform-origin: 0 0;
+        transform: rotate(0deg) scale(1, 1);
+        overflow: hidden;
+        color: #171a1f;
+        cursor: pointer;
+        transition: 0.3s ease-in;
+    }
+
+    .time-remaining_PracticeQuestion {
+        color: #171a1f;
+        text-align: right;
+        font-family: "Poppins-SemiBold", sans-serif;
+        font-size: 12px;
+        line-height: 24px;
+        font-weight: 600;
+        position: relative;
+        align-self: stretch;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        -webkit-text-stroke: 1px transparent;
+    }
+
+    .cover_PracticeQuestion_and_answer {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 0px 20px 0px 20px;
+        align-items: start;
+        height: auto;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
+    .frame-1707479480_PracticeQuestion {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: flex-end;
+        justify-content: flex-start;
+        width: auto;
+        position: relative;
+    }
+
+    .do-you-use-any-of-thesetools4_PracticeQuestion {
+        color: #e5484d;
+        text-align: right;
+        font-family: "NotoSansMath-Regular", sans-serif;
+        font-size: 230x;
+        line-height: 46px;
+        font-weight: 400;
+        position: relative;
+        align-self: stretch;
+        transform-origin: 0 0;
+        transform: rotate(0deg) scale(1, 1);
+    }
+
+    .bottom-btn_PracticeQuestion {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .frame-1707480628_PracticeQuestion {
+        background: rgba(4, 99, 46, 0.03);
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.1);
+        border-width: 1px;
+        width: 100%;
+        height: auto;
+        padding: 0 33px 33px 33px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .frame-1707479481_PracticeQuestion {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .frame-1707480631_PracticeQuestion {
+        display: none;
+        height: 0px;
+    }
+
+    .frame-1707479482_PracticeQuestion {
+        display: flex;
+        gap: 34px;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-top: 0px;
+        justify-content: flex-start;
+        align-content: center;
+        width: 100%;
+        height: 50px;
+        position: relative;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        margin-top: 22px;
+    }
+
+    .move_PracticeQuestion_button {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        padding-left: 20px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .move_PracticeQuestion_colors {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 8px;
+    }
+
+    .frame-1707480648_PracticeQuestion {
+        border-style: solid;
+        border-color: transparent;
+        border-width: 1px 0px 0px 0px;
+        padding: 12px 40px 16px 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-left_PracticeQuestion {
+        color: var(--neutral-600, #6f6c90);
+        text-align: center;
+        font-family: var(--paragraph-default-font-family,
+                "DmSans-Regular",
+                sans-serif);
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+        position: relative;
+        width: 443.13px;
+    }
+
+}

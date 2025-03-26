@@ -10,6 +10,8 @@ function Navbar() {
 
   const path = [
     "/question",
+    "/multiInputQuestion",
+    "/PracticeQuestion",
     "/Practice",
     "/board",
     "/Benefit",
@@ -126,11 +128,27 @@ function Navbar() {
                       </div>
                     </NavLink>
                   <NavLink
+                    to="/multiInputQuestion"
+                    className="nav-item text-decoration-none"
+                  >
+                    <div className="nav-item2">
+                      <div className="nav-item3">Multi Input Question </div>
+                    </div>
+                  </NavLink>
+                  <NavLink
                     to="/question"
                     className="nav-item text-decoration-none"
                   >
                     <div className="nav-item2">
                       <div className="nav-item3">Question </div>
+                    </div>
+                  </NavLink>
+                  <NavLink
+                    to="/PracticeQuestion"
+                    className="nav-item text-decoration-none"
+                  >
+                    <div className="nav-item2">
+                      <div className="nav-item3">Practice Question </div>
                     </div>
                   </NavLink>
                   <NavLink
@@ -345,6 +363,22 @@ function Navbar() {
                 >
                   <div className="nav-item2">
                     <div className="nav-item3">Practice </div>
+                  </div>
+                </NavLink>
+                <NavLink
+                  to="/multiInputQuestion"
+                  className="nav-item text-decoration-none"
+                >
+                  <div className="nav-item2">
+                    <div className="nav-item3">Multi Input Question </div>
+                  </div>
+                </NavLink>
+                <NavLink
+                  to="/PracticeQuestion"
+                  className="nav-item text-decoration-none"
+                >
+                  <div className="nav-item2">
+                    <div className="nav-item3">Practice Question </div>
                   </div>
                 </NavLink>
                 <NavLink

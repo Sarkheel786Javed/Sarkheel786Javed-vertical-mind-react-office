@@ -32,7 +32,9 @@ code {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
+.pointer{
+  cursor: pointer;
+}
 @media (max-width:767px) {
   .ellipse_text {
     width: 60%;

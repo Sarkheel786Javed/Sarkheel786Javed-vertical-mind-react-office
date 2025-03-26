@@ -15,6 +15,7 @@ import Question from "./Pages/Question/Question.tsx";
 import Board from "./Pages/Board/Board.tsx";
 import Practice from "./Pages/Practice/Practice.tsx";
 import PracticeQuestion from "./Pages/PracticeQuestion/PracticeQuestion.tsx";
+import MultiInputQuestion from "./Pages/MultiInputQuestion/MultiInputQuestion.tsx";
 function App() {
   return (
     <div className="App">
@@ -33,6 +34,14 @@ function App() {
             element={
               <Layout>
                 <Question />
+              </Layout>
+            }
+          />
+          <Route
+            path="/multiInputQuestion"
+            element={
+              <Layout>
+                <MultiInputQuestion />
               </Layout>
             }
           />
