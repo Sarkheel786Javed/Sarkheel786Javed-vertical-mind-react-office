@@ -504,7 +504,7 @@ function SessionReview() {
                 <div className="_07_Session_Review">07</div>
                 <img
                   className="bi-caret-down-fill_Session_Review"
-                  src="assets\images\Practice\arrow_down.svg"
+                  src="assets\images\entries_in_pagination.svg"
                 />
               </div>
               <div className="entries_Session_Review">entries</div>

@@ -1,5 +1,8 @@
 .SessionReview_cover_Review_Question {
-    padding: 30px;
+    padding: 30px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /* ///////////////////////////////////// */
@@ -24,6 +27,16 @@
     transform: rotate(0deg) scale(1, 1);
 }
 
+.you-attempted-7-questions-scoring-24_Review_Question {
+    color: #009146;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    position: relative;
+}
+
 .frame-1707480824_Review_Question {
     display: flex;
     flex-direction: row;
@@ -33,7 +46,6 @@
     flex-shrink: 0;
     height: 58px;
     position: relative;
-    margin-bottom: 16px;
 }
 
 .frame-1707480858_Review_Question {
@@ -124,7 +136,6 @@
 }
 
 .key-concepts_Review_Question {
-
     text-align: left;
     font-family: "Poppins-Medium", sans-serif;
     font-size: 16px;
@@ -134,60 +145,11 @@
     position: relative;
 }
 
-.search_cover_Review_Question {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 270px;
+.frame-1707480722_filter_Review_Question {
+    display: none;
 }
 
-.sample_Review_Question {
-    background: #ffffff;
-    border-radius: 32px;
-    border-style: solid;
-    border-color: #dcdde2;
-    border-width: 1px;
-    padding: 0px 20px 0px 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 100%;
-    height: 44px;
-    position: relative;
-}
-
-.sample_Review_Question:focus-visible {
-    background: #ffffff;
-    outline: none;
-    border-radius: 32px;
-    border-style: solid;
-    border-color: #dcdde2;
-    border-width: 1px;
-    padding: 0px 20px 0px 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    width: 100%;
-    height: 44px;
-    position: relative;
-}
-
-._01-align-center_Review_Question {
-    margin-left: -30px;
-    flex-shrink: 0;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    overflow: visible;
-}
-
-.frame-1707480816_Review_Question {
+.frame-1707480815_Review_Question {
     background: #ffffff;
     border-radius: 34px;
     border-style: solid;
@@ -204,6 +166,7 @@
     overflow: hidden;
 }
 
+/* tabs */
 .frame-1707480722_Review_Question_Active {
     background: rgba(0, 145, 70, 0.1);
     border-radius: 34px 0px 0px 34px;
@@ -238,22 +201,59 @@
     color: #000000;
 }
 
-.calendar-arrow-down-1_Review_Question {
-    flex-shrink: 0;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    overflow: visible;
-    aspect-ratio: 1;
-}
 
-.sort-by-date_Review_Question {
-
+.all-questions_Review_Question {
     text-align: left;
     font-family: "Poppins-Medium", sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707480725_Review_Question_Active {
+    background: rgba(0, 145, 70, 0.1);
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 1px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 44px;
+    position: relative;
+    color: #009146;
+}
+
+.frame-1707480725_Review_Question {
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 1px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 44px;
+    position: relative;
+    color: #000000;
+}
+
+.correct_Review_Question {
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -270,7 +270,6 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    width: 212px;
     height: 44px;
     position: relative;
     color: #009146;
@@ -284,22 +283,12 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    width: 212px;
     height: 44px;
     position: relative;
-    color: #171a1f;
+    color: #000000;
 }
 
-.sort-alpha-down-1-1_Review_Question {
-    flex-shrink: 0;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    overflow: visible;
-    aspect-ratio: 1;
-}
-
-.sort-alphabetically_Review_Question {
+.incorrect_Review_Question {
     text-align: left;
     font-family: "Poppins-Regular", sans-serif;
     font-size: 16px;
@@ -311,6 +300,7 @@
     justify-content: flex-start;
     -webkit-text-stroke: 1px transparent;
 }
+
 
 /* content section */
 .frame-1707480844_Review_Question {
@@ -327,7 +317,7 @@
     border-radius: 16px;
     flex-shrink: 0;
     width: 270px;
-    height: calc(100vh - 394px);
+    height: calc(100vh - 346px);
     overflow-x: hidden;
     overflow-y: auto;
     position: relative;
@@ -721,7 +711,7 @@
     justify-content: flex-start;
     flex-shrink: 0;
     width: 100%;
-    height: calc(100vh - 457.99px);
+    height: calc(100vh - 410.99px);
     border-radius: 16px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -806,7 +796,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: auto;
+    width: calc(100% - 60px);
     align-items: flex-start;
     justify-content: flex-start;
     position: relative;
@@ -1095,8 +1085,12 @@
 }
 
 @media (max-width:1024px) {
+    .SessionReview_cover_Review_Question {
+        padding: 20px 20px 0px 20px;
+    }
+
     .search_cover_Review_Question {
-        width: 300px;
+        width: 200px;
     }
 
     .frame-1707480836_Review_Question {
@@ -1104,14 +1098,61 @@
         gap: 10px;
     }
 
-    .frame-1707480858_Review_Question {
+    .frame-1707480336_Review_Question {
+        background: #ffffff;
+        border-radius: 16px;
+        flex-shrink: 0;
+        width: 270px;
+        height: calc(100vh - 331px);
+        overflow-x: hidden;
+        overflow-y: auto;
+        position: relative;
+        box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+    }
+
+    .data_table_Review_Question {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        width: 100%;
+        height: calc(100vh - 395px);
+        border-radius: 16px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+
+
+    .frame-1707480724_Review_Question {
+        width: auto;
+    }
+
+    .sort-alphabetically_Review_Question,
+    .sort-by-date_Review_Question {
         display: none;
     }
 }
 
 @media (max-width:767px) {
     .SessionReview_cover_Review_Question {
-        padding: 20px;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .data_table_Review_Question {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        width: 100%;
+        height: calc(100vh - 400px);
+        border-radius: 16px;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
 
     .frame-1707480824_Review_Question {
@@ -1131,6 +1172,60 @@
     }
 
     .frame-1707480336_Review_Question {
+        display: none;
+    }
+
+    .frame-1707480722_filter_Review_Question {
+        background: #ffffff;
+        border-radius: 32px;
+        border-style: solid;
+        border-color: #dcdde2;
+        border-width: 1px;
+        padding: 0px 20px 0px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-shrink: 0;
+        height: 44px;
+        position: relative;
+        margin: 16px 0px;
+    }
+
+    .do-you-use-any-of-thesetools_Review_Question {
+        color: #171a1f;
+        text-align: left;
+        font-family: "Poppins-Bold", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        position: relative;
+        align-self: stretch;
+        transform-origin: 0 0;
+        transform: rotate(0deg) scale(1, 1);
+    }
+
+    .frame-1707480848_Review_Question {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .frame-1707480849_Review_Question {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex: 1;
+        position: relative;
+    }
+
+    .frame-1707480824_Review_Question {
+
         display: none;
     }
 
@@ -1157,7 +1252,11 @@
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:375px) {
+    .SessionReview_cover_Review_Question {
+        padding: 20px 20px 0px 20px;
+    }
+
     .frame-1707480824_Review_Question {
         display: flex;
         flex-direction: column;
@@ -1188,6 +1287,36 @@
     .sort-alpha-down-1-1_Review_Question {
         width: 12px;
         height: 12px;
+    }
+
+    .frame-1707480824_Review_Question {
+        display: none;
+    }
+
+    .do-you-use-any-of-thesetools_Review_Question {
+        color: #171a1f;
+        text-align: left;
+        font-family: "Poppins-Bold", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        position: relative;
+        align-self: stretch;
+        transform-origin: 0 0;
+        transform: rotate(0deg) scale(1, 1);
+    }
+
+    .data_table_Review_Question {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        width: 100%;
+        height: calc(100vh - 453px);
+        border-radius: 16px;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
 
     .frame-1707480836_Review_Question {

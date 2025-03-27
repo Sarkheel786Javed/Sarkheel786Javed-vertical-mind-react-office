@@ -3,3 +3,12 @@
     width: 100%;
     overflow-x: auto;
 }
+
+@media (max-width:425px) {
+    #content_fo_child {
+        min-height: calc(100vh - 193px);
+        width: 100%;
+        overflow-x: auto;
+    }
+    
+}

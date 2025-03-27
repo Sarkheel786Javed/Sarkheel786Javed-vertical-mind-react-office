@@ -63,70 +63,72 @@ function ReviewQuestion() {
         <div className="do-you-use-any-of-thesetools_Review_Question">
           Review Question and key concepts
         </div>
+
+        {/* tabs for large screen  */}
         <div className="frame-1707480824_Review_Question">
           <div className="frame-1707480858_Review_Question">
-            <div className="frame-1707480614_Review_Question pointer">
+            <div className="frame-1707480614_Review_Question">
               <div className="questions_Review_Question">Questions</div>
             </div>
             <div className="frame-1707480615_Review_Question">
               <div className="key-concepts_Review_Question">Key Concepts</div>
             </div>
           </div>
-          <div className="search_cover_Review_Question">
-            <input
-              type="text"
-              className="sample_Review_Question"
-              placeholder="Search..."
-            ></input>
-            <img
-              className="_01-align-center_Review_Question pointer"
-              src="assets/images/Search_icon.svg"
-            />
-          </div>
-          <div className="frame-1707480816_Review_Question">
+
+          <div className="frame-1707480815_Review_Question">
             <div
               className={`${
-                switchTabs === "Sort By Date"
+                switchTabs === "All questions"
                   ? "frame-1707480722_Review_Question_Active pointer"
                   : "frame-1707480722_Review_Question pointer"
               }`}
-              onClick={() => handleSwitchTabs("Sort By Date")}
+              onClick={() => handleSwitchTabs("All questions")}
               style={{ transition: " 0.3s ease-in-out" }}
             >
-              <img
-                className="calendar-arrow-down-1_Review_Question"
-                src={`${
-                  switchTabs === "Sort By Date"
-                    ? "assets/images/calendar-arrow-down 1 green.svg"
-                    : "assets/images/calendar-arrow-down 1-black.svg"
-                }`}
-                style={{ transition: " 0.3s ease-in-out" }}
-              />
-              <div className="sort-by-date_Review_Question">Sort By Date</div>
+              <div className="all-questions_Review_Question">All questions</div>
             </div>
             <div
               className={`${
-                switchTabs === "Sort Alphabetically"
+                switchTabs === "Correct"
+                  ? "frame-1707480725_Review_Question_Active pointer"
+                  : "frame-1707480725_Review_Question pointer"
+              }`}
+              onClick={() => handleSwitchTabs("Correct")}
+              style={{ transition: " 0.3s ease-in-out" }}
+            >
+              <div className="correct_Review_Question">Correct</div>
+            </div>
+            <div
+              className={`${
+                switchTabs === "Incorrect"
                   ? "frame-1707480724_Review_Question_Active pointer"
                   : "frame-1707480724_Review_Question pointer"
               }`}
+              onClick={() => handleSwitchTabs("Incorrect")}
               style={{ transition: " 0.3s ease-in-out" }}
-              onClick={() => handleSwitchTabs("Sort Alphabetically")}
             >
-              <img
-                className="sort-alpha-down-1-1_Review_Question"
-                src={`${
-                  switchTabs === "Sort Alphabetically"
-                    ? "assets/images/sort-alpha-down (1) 1-green.svg"
-                    : "assets/images/sort-alpha-down (1) 1-black.svg"
-                }`}
-                style={{ transition: " 0.3s ease-in-out" }}
-              />
-
-              <div className="sort-alphabetically_Review_Question">
-                Sort Alphabetically
+              <div className="incorrect_Review_Question">Incorrect</div>
+            </div>
+          </div>
+        </div>
+        {/* filters for small screen  */}
+        <div className="frame-1707480722_filter_Review_Question">
+          <div className="frame-1707480849_Review_Question">
+            <div className="frame-1707480848_Review_Question">
+              <div className="angle-small-down-3-1_Review_Question">
+                <img
+                  className="settings-sliders-1_Review_Question pointer"
+                  src="assets/images/settings-sliders 1.svg"
+                />
+              </div>
+              <div className="filter-questions_Review_Question">
+                Filter questions
               </div>
             </div>
+            <img
+              className="angle-small-down-3-12_Review_Question pointer"
+              src="assets/images/dropdown_fillter.svg"
+            />
           </div>
         </div>
       </div>
@@ -422,7 +424,7 @@ function ReviewQuestion() {
                 <div className="_07_Review_Question">07</div>
                 <img
                   className="bi-caret-down-fill_Review_Question"
-                  src="assets\images\Practice\arrow_down.svg"
+                  src="assets\images/entries_in_pagination.svg"
                 />
               </div>
               <div className="entries_Review_Question">entries</div>

@@ -1,6 +1,6 @@
 .frame-1707480648 {
   border-style: solid;
-  border-color: transparent;
+  border-color: #D9DBE9;
   border-width: 1px 0px 0px 0px;
   padding: 16px 40px 16px 40px;
   display: flex;
@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: white;
+  /* background-color: white; */
 }
 .footer-left {
   color: var(--neutral-600, #6f6c90);
