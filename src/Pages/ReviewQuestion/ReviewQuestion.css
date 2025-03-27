@@ -1,0 +1,1245 @@
+.SessionReview_cover_Review_Question {
+    padding: 30px;
+}
+
+/* ///////////////////////////////////// */
+.frame-1707480843_Review_Question {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.do-you-use-any-of-thesetools_Review_Question {
+    color: #171a1f;
+    text-align: left;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+}
+
+.frame-1707480824_Review_Question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 58px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.frame-1707480858_Review_Question {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-1707480614_Review_Question {
+    background: #009146;
+    border-radius: 34px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 132px;
+    height: 44px;
+    position: relative;
+    transition: 0.3s ease-in;
+    color: #ffffff;
+}
+
+.frame-1707480614_Review_Question:hover {
+    background: #009146cd;
+    border-radius: 34px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 132px;
+    height: 44px;
+    position: relative;
+}
+
+.questions_Review_Question {
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 500;
+    position: relative;
+}
+
+.frame-1707480615_Review_Question {
+    background: #ffffff;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: rgba(114, 114, 114, 0.24);
+    border-width: 1px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 164px;
+    height: 44px;
+    position: relative;
+    color: #272a33;
+    transition: 0.3s ease-in;
+}
+
+.frame-1707480615_Review_Question:hover {
+    background: #009146;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: rgba(114, 114, 114, 0.24);
+    border-width: 1px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 164px;
+    height: 44px;
+    position: relative;
+    color: #ffffff;
+}
+
+.key-concepts_Review_Question {
+
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 500;
+    position: relative;
+}
+
+.search_cover_Review_Question {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 270px;
+}
+
+.sample_Review_Question {
+    background: #ffffff;
+    border-radius: 32px;
+    border-style: solid;
+    border-color: #dcdde2;
+    border-width: 1px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    height: 44px;
+    position: relative;
+}
+
+.sample_Review_Question:focus-visible {
+    background: #ffffff;
+    outline: none;
+    border-radius: 32px;
+    border-style: solid;
+    border-color: #dcdde2;
+    border-width: 1px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    height: 44px;
+    position: relative;
+}
+
+._01-align-center_Review_Question {
+    margin-left: -30px;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+}
+
+.frame-1707480816_Review_Question {
+    background: #ffffff;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 44px;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame-1707480722_Review_Question_Active {
+    background: rgba(0, 145, 70, 0.1);
+    border-radius: 34px 0px 0px 34px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 1px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    color: #009146;
+}
+
+.frame-1707480722_Review_Question {
+    background: #ffffff;
+    border-radius: 34px 0px 0px 34px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 1px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    color: #000000;
+}
+
+.calendar-arrow-down-1_Review_Question {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+    aspect-ratio: 1;
+}
+
+.sort-by-date_Review_Question {
+
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707480724_Review_Question_Active {
+    background: rgba(0, 145, 70, 0.1);
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 212px;
+    height: 44px;
+    position: relative;
+    color: #009146;
+}
+
+.frame-1707480724_Review_Question {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 212px;
+    height: 44px;
+    position: relative;
+    color: #171a1f;
+}
+
+.sort-alpha-down-1-1_Review_Question {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+    aspect-ratio: 1;
+}
+
+.sort-alphabetically_Review_Question {
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+/* content section */
+.frame-1707480844_Review_Question {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.frame-1707480336_Review_Question {
+    background: #ffffff;
+    border-radius: 16px;
+    flex-shrink: 0;
+    width: 270px;
+    height: calc(100vh - 394px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+
+.frame-17074803362_Review_Question {
+    background: #ffffff;
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+
+.frame-1707480845_Review_Question {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+}
+
+.frame-1707480842_Review_Question {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-1707480318_Review_Question {
+    background: #ffffff;
+    border-radius: 16px 16px 0px 0px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.checkbox_Review_Question {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame_Review_Question {
+    background: #ffffff;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #dcdde2;
+    border-width: 2px;
+    padding: 3.13px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 19.59px;
+    height: 19.59px;
+    position: relative;
+    box-shadow: inset 0.78px 0.78px 1.37px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* check input box */
+.frame_Review_Question {
+    background: #009146;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #009146;
+    border-width: 2px;
+    padding: 3.13px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 19.59px;
+    height: 19.59px;
+    position: relative;
+    box-shadow: inset 0.78px 0.78px 1.37px 0px rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.frame2_Review_Question {
+    align-self: stretch;
+    flex: 1;
+    height: auto;
+    position: relative;
+    overflow: visible;
+}
+
+/* //////////////////////// */
+.all_Review_Question {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480320_Review_Question {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.spatial-understanding_Review_Question {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480321_Review_Question {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.numbers-from-1-to-10_Review_Question {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480322_Review_Question {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.numbers-from-11-to-20_Review_Question {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480324_Review_Question {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.subtraction-1-to-20_Review_Question {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480323_Review_Question {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.addition-1-to-20_Review_Question {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    width: 152px;
+}
+
+.frame-1707480325_Review_Question {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.multiplication_Review_Question {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480326_Review_Question {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.skip-counting_Review_Question {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480327_Review_Question {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.patterns-and-shapes_Review_Question {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480328_Review_Question {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.frame-1707480329_Review_Question {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.frame-1707480841_Review_Question {
+    background: #ffffff;
+    border-radius: 0px 0px 8px 8px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 294px);
+    overflow: hidden;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 16px;
+}
+
+.data_table_Review_Question {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    height: calc(100vh - 457.99px);
+    border-radius: 16px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.frame-1707480826_Review_Question {
+    background: #ffffff;
+    border-radius: 8px 8px 0px 0px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame-1707480835_Review_Question {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.group-1707480483_Review_Question {
+    flex-shrink: 0;
+    width: calc(100% - 140px);
+    height: auto;
+    position: static;
+}
+
+.frame-1707480872_Review_Question {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+._19-mar-2025_Review_Question {
+    color: #151b4a;
+    width: 76px;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+._1_Review_Question {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+
+.frame-1707480871_Review_Question {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.b-type-natriuretic-peptide_Review_Question {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #151b4a;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+
+.a-78-years-old-man-with-a-history-of-stable-angina-visits-his-gp-for-a-routine-v_Review_Question {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #151b4a;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-1707480836_Review_Question {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.check-1_Review_Question {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.frame-1707480825_Review_Question {
+    background: #ffffff;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: #E0E9F0;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 10px 20px 10px 20px;
+    height: 44px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    color: #151b4a;
+}
+
+.frame-1707480825_Review_Question:hover {
+    background: #009146;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: #009146;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 10px 20px 10px 20px;
+    height: 44px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    color: #FFFFFF;
+}
+
+
+.review_Review_Question {
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+/* pagination */
+
+._3_Review_Question {
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 64px;
+    position: relative;
+}
+
+.frame-16_Review_Question {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.show_Review_Question {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+}
+
+.frame-15_Review_Question {
+    background: #009146;
+    border-radius: 8px;
+    padding: 8px 9px 8px 9px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+._07_Review_Question {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    position: relative;
+}
+
+.bi-caret-down-fill_Review_Question {
+    flex-shrink: 0;
+    width: 8px;
+    height: 8px;
+    position: relative;
+    overflow: visible;
+}
+
+.entries_Review_Question {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+}
+
+.frame-162_Review_Question {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.previous_Review_Question {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+}
+
+.frame-152_Review_Question {
+    background: #009146;
+    border-radius: 100px;
+    padding: 8px 9px 8px 9px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+.frame-163_Review_Question {
+    background: #e0e0e0;
+    border-radius: 100px;
+    padding: 8px 9px 8px 9px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+._2_Review_Question {
+    color: #1f1f26;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    position: relative;
+    width: 13px;
+    height: 15px;
+}
+
+.frame-17_Review_Question {
+    background: #e0e0e0;
+    border-radius: 100px;
+    padding: 8px 9px 8px 9px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+._32_Review_Question {
+    color: #1f1f26;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    position: relative;
+    width: 13px;
+    height: 15px;
+}
+
+.next_Review_Question {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+}
+
+@media (max-width:1024px) {
+    .search_cover_Review_Question {
+        width: 300px;
+    }
+
+    .frame-1707480836_Review_Question {
+        width: auto;
+        gap: 10px;
+    }
+
+    .frame-1707480858_Review_Question {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .SessionReview_cover_Review_Question {
+        padding: 20px;
+    }
+
+    .frame-1707480824_Review_Question {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: end;
+        gap: 16px;
+        flex-shrink: 0;
+        height: auto;
+        position: relative;
+        margin-bottom: 16px;
+    }
+
+    .search_cover_Review_Question {
+        width: 100%;
+    }
+
+    .frame-1707480336_Review_Question {
+        display: none;
+    }
+
+    .frame-1707480841_Review_Question {
+        width: 100%;
+    }
+
+    .frame-1707480836_Review_Question {
+        display: flex;
+        width: auto;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+
+
+    .previous_Review_Question,
+    .next_Review_Question {
+        display: none;
+    }
+}
+
+@media (max-width:425px) {
+    .frame-1707480824_Review_Question {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        gap: 16px;
+        flex-shrink: 0;
+        height: auto;
+        position: relative;
+        margin-bottom: 16px;
+    }
+
+    .sort-by-date_Review_Question {
+        font-size: 12px;
+    }
+
+    .frame-1707480724_Review_Question,
+    .frame-1707480724_Review_Question_Active {
+        width: auto;
+        height: 44px;
+    }
+
+    .sort-alphabetically_Review_Question {
+        font-size: 12px;
+    }
+
+    .calendar-arrow-down-1_Review_Question,
+    .sort-alpha-down-1-1_Review_Question {
+        width: 12px;
+        height: 12px;
+    }
+
+    .frame-1707480836_Review_Question {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .frame-1707480872_Review_Question {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+    }
+
+    ._19-mar-2025_Review_Question {
+        color: #151b4a;
+        width: 100%;
+        text-align: start;
+        font-family: "Poppins-Medium", sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        position: relative;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .frame-1707480835_Review_Question {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .group-1707480483_Review_Question {
+        flex-shrink: 0;
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+}

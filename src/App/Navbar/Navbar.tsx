@@ -10,6 +10,8 @@ function Navbar() {
 
   const path = [
     "/question",
+    "/ReviewQuestion",
+    "/SessionReview",
     "/multiInputQuestion",
     "/PracticeQuestion",
     "/Practice",
@@ -95,7 +97,9 @@ function Navbar() {
               onClick={toggleMenu}
             >
               <div
-                className={`table-top-bar ${hovered ? "dropdown_active" : "dropdown_unactive"}`}
+                className={`table-top-bar ${
+                  hovered ? "dropdown_active" : "dropdown_unactive"
+                }`}
                 style={{
                   backgroundColor: hovered ? "#0b8a44" : "transparent",
                   transition: "background-color 0.3s ease-in-out",
@@ -104,29 +108,50 @@ function Navbar() {
                 <div className="point-summary">
                   <div className="frame-1707480279">
                     <div
-                      className={`task-management ${hovered ? "text-light" : "text-dark"}`}
+                      className={`task-management ${
+                        hovered ? "text-light" : "text-dark"
+                      }`}
                     >
                       Task Management
                     </div>
                     <img
                       className="arrow-drop-down"
-                      src={hovered
-                        ? "assets/images/Navbar/arrow_drop_down_white.svg"
-                        : "assets/images/Navbar/arrow_drop_down.svg"}
-                      alt="Arrow" />
+                      src={
+                        hovered
+                          ? "assets/images/Navbar/arrow_drop_down_white.svg"
+                          : "assets/images/Navbar/arrow_drop_down.svg"
+                      }
+                      alt="Arrow"
+                    />
                   </div>
                 </div>
               </div>
               {showSubChild && (
                 <ul className="sub_child ">
                   <NavLink
-                      to="/Practice"
-                      className="nav-item text-decoration-none"
-                    >
-                      <div className="nav-item2">
-                        <div className="nav-item3">Practice </div>
-                      </div>
-                    </NavLink>
+                    to="/Practice"
+                    className="nav-item text-decoration-none"
+                  >
+                    <div className="nav-item2">
+                      <div className="nav-item3">Practice </div>
+                    </div>
+                  </NavLink>
+                  <NavLink
+                    to="/ReviewQuestion"
+                    className="nav-item text-decoration-none"
+                  >
+                    <div className="nav-item2">
+                      <div className="nav-item3">Review Question</div>
+                    </div>
+                  </NavLink>
+                  <NavLink
+                    to="/SessionReview"
+                    className="nav-item text-decoration-none"
+                  >
+                    <div className="nav-item2">
+                      <div className="nav-item3">Session Review</div>
+                    </div>
+                  </NavLink>
                   <NavLink
                     to="/multiInputQuestion"
                     className="nav-item text-decoration-none"
@@ -260,7 +285,11 @@ function Navbar() {
       >
         {location.pathname === "/question" ? (
           <>
-            <img src="assets/images/Navbar/profile_icon.svg" alt="" className="" />
+            <img
+              src="assets/images/Navbar/profile_icon.svg"
+              alt=""
+              className=""
+            />
           </>
         ) : (
           <>
@@ -271,7 +300,6 @@ function Navbar() {
             />
           </>
         )}
-
       </button>
       <div className="wrapper">
         <div className="content">
@@ -321,8 +349,9 @@ function Navbar() {
             </div>
           </NavLink>
           <div
-            className={`table-top-bar ${hovered ? "dropdown_active" : "dropdown_unactive"
-              }`}
+            className={`table-top-bar ${
+              hovered ? "dropdown_active" : "dropdown_unactive"
+            }`}
             onMouseEnter={() => [setHovered(true), setShowSubChild(true)]}
             onMouseLeave={() => {
               setHovered(false);
@@ -336,8 +365,9 @@ function Navbar() {
             <div className="point-summary">
               <div className="frame-1707480279">
                 <div
-                  className={`task-management ${hovered ? "text-light" : "text-dark"
-                    }`}
+                  className={`task-management ${
+                    hovered ? "text-light" : "text-dark"
+                  }`}
                 >
                   Task Management
                 </div>
@@ -374,6 +404,22 @@ function Navbar() {
                   </div>
                 </NavLink>
                 <NavLink
+                  to="/ReviewQuestion"
+                  className="nav-item text-decoration-none"
+                >
+                  <div className="nav-item2">
+                    <div className="nav-item3">Review Question</div>
+                  </div>
+                </NavLink>
+                <NavLink
+                  to="/SessionReview"
+                  className="nav-item text-decoration-none"
+                >
+                  <div className="nav-item2">
+                    <div className="nav-item3">Session Review</div>
+                  </div>
+                </NavLink>
+                <NavLink
                   to="/PracticeQuestion"
                   className="nav-item text-decoration-none"
                 >
@@ -381,10 +427,7 @@ function Navbar() {
                     <div className="nav-item3">Practice Question </div>
                   </div>
                 </NavLink>
-                <NavLink
-                  to="/board"
-                  className="nav-item text-decoration-none"
-                >
+                <NavLink to="/board" className="nav-item text-decoration-none">
                   <div className="nav-item2">
                     <div className="nav-item3">Board </div>
                   </div>

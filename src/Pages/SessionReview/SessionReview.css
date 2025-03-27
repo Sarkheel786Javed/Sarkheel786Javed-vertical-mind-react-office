@@ -1,0 +1,1209 @@
+.SessionReview_cover_Session_Review {
+    padding: 30px;
+}
+
+/* header sectoion  */
+.frame-1707480843_Session_Review {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.do-you-use-any-of-thesetools_Session_Review {
+    color: #171a1f;
+    text-align: left;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+}
+
+.you-attempted-7-questions-scoring-24_Session_Review {
+    color: #009146;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480824_Session_Review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 58px;
+    position: relative;
+}
+
+.frame-1707480858_Session_Review {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-1707480614_Session_Review {
+    background: #009146;
+    border-radius: 34px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 132px;
+    height: 44px;
+    position: relative;
+    transition: 0.3s ease-in;
+    color: #ffffff;
+}
+
+.frame-1707480614_Session_Review:hover {
+    background: #009146cd;
+    border-radius: 34px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 132px;
+    height: 44px;
+    position: relative;
+}
+
+.questions_Session_Review {
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 500;
+    position: relative;
+}
+
+.frame-1707480615_Session_Review {
+    background: #ffffff;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: rgba(114, 114, 114, 0.24);
+    border-width: 1px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 164px;
+    height: 44px;
+    position: relative;
+    color: #272a33;
+    transition: 0.3s ease-in;
+}
+
+.frame-1707480615_Session_Review:hover {
+    background: #009146;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: rgba(114, 114, 114, 0.24);
+    border-width: 1px;
+    padding: 16px 20px 16px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 164px;
+    height: 44px;
+    position: relative;
+    color: #ffffff;
+}
+
+.key-concepts_Session_Review {
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    font-weight: 500;
+    position: relative;
+}
+
+.frame-1707480722_filter_Session_Review {
+    display: none;
+}
+
+.frame-1707480815_Session_Review {
+    background: #ffffff;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 44px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* tabs */
+.frame-1707480722_Session_Review_Active {
+    background: rgba(0, 145, 70, 0.1);
+    border-radius: 34px 0px 0px 34px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 1px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    color: #009146;
+}
+
+.frame-1707480722_Session_Review {
+    background: #ffffff;
+    border-radius: 34px 0px 0px 34px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 1px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    color: #000000;
+}
+
+
+.all-questions_Session_Review {
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707480725_Session_Review_Active {
+    background: rgba(0, 145, 70, 0.1);
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 1px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 44px;
+    position: relative;
+    color: #009146;
+}
+
+.frame-1707480725_Session_Review {
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 1px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 44px;
+    position: relative;
+    color: #000000;
+}
+
+.correct_Session_Review {
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+.frame-1707480724_Session_Review_Active {
+    background: rgba(0, 145, 70, 0.1);
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 44px;
+    position: relative;
+    color: #009146;
+}
+
+.frame-1707480724_Session_Review {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 44px;
+    position: relative;
+    color: #000000;
+}
+
+.incorrect_Session_Review {
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+/* ///////////////////////////////////// */
+/* content section */
+.frame-1707480844_Session_Review {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.frame-1707480336_Session_Review {
+    background: #ffffff;
+    border-radius: 16px;
+    flex-shrink: 0;
+    width: 270px;
+    height: calc(100vh - 394px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+
+.frame-17074803362_Session_Review {
+    background: #ffffff;
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+}
+
+.frame-1707480845_Session_Review {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+}
+
+.frame-1707480842_Session_Review {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-1707480318_Session_Review {
+    background: #ffffff;
+    border-radius: 16px 16px 0px 0px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.checkbox_Session_Review {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame_Session_Review {
+    background: #ffffff;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #dcdde2;
+    border-width: 2px;
+    padding: 3.13px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 19.59px;
+    height: 19.59px;
+    position: relative;
+    box-shadow: inset 0.78px 0.78px 1.37px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* check input box */
+.frame_Session_Review {
+    background: #009146;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #009146;
+    border-width: 2px;
+    padding: 3.13px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 19.59px;
+    height: 19.59px;
+    position: relative;
+    box-shadow: inset 0.78px 0.78px 1.37px 0px rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.frame2_Session_Review {
+    align-self: stretch;
+    flex: 1;
+    height: auto;
+    position: relative;
+    overflow: visible;
+}
+
+/* //////////////////////// */
+.all_Session_Review {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480320_Session_Review {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.spatial-understanding_Session_Review {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480321_Session_Review {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.numbers-from-1-to-10_Session_Review {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480322_Session_Review {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.numbers-from-11-to-20_Session_Review {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480324_Session_Review {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.subtraction-1-to-20_Session_Review {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480323_Session_Review {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.addition-1-to-20_Session_Review {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    width: 152px;
+}
+
+.frame-1707480325_Session_Review {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.multiplication_Session_Review {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480326_Session_Review {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.skip-counting_Session_Review {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480327_Session_Review {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.patterns-and-shapes_Session_Review {
+    color: #272a33;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+}
+
+.frame-1707480328_Session_Review {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.frame-1707480329_Session_Review {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    position: relative;
+}
+
+.frame-1707480841_Session_Review {
+    background: #ffffff;
+    border-radius: 0px 0px 8px 8px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 294px);
+    overflow: hidden;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 16px;
+}
+
+.data_table_Session_Review {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    height: calc(100vh - 457.99px);
+    border-radius: 16px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.frame-1707480826_Session_Review {
+    background: #ffffff;
+    border-radius: 8px 8px 0px 0px;
+    border-style: solid;
+    border-color: #e0e9f0;
+    border-width: 0px 0px 1px 0px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame-1707480835_Session_Review {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.group-1707480483_Session_Review {
+    flex-shrink: 0;
+    width: calc(100% - 140px);
+    height: 78px;
+    position: static;
+}
+
+.frame-1707480872_Session_Review {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.id_1_Session_Review {
+    color: #000000;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+._1_Session_Review {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+
+.frame-1707480871_Session_Review {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.b-type-natriuretic-peptide_Session_Review {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #151b4a;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+
+.a-78-years-old-man-with-a-history-of-stable-angina-visits-his-gp-for-a-routine-v_Session_Review {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #151b4a;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame-1707480836_Session_Review {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.check-1_Session_Review {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.frame-1707480825_Session_Review {
+    background: #ffffff;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: #E0E9F0;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 10px 20px 10px 20px;
+    height: 44px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    color: #151b4a;
+}
+
+.frame-1707480825_Session_Review:hover {
+    background: #009146;
+    border-radius: 34px;
+    border-style: solid;
+    border-color: #009146;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 10px 20px 10px 20px;
+    height: 44px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    color: #FFFFFF;
+}
+
+
+.review_Session_Review {
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    -webkit-text-stroke: 1px transparent;
+}
+
+/* pagination */
+
+._3_Session_Review {
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 64px;
+    position: relative;
+}
+
+.frame-16_Session_Review {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.show_Session_Review {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+}
+
+.frame-15_Session_Review {
+    background: #009146;
+    border-radius: 8px;
+    padding: 8px 9px 8px 9px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+._07_Session_Review {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    position: relative;
+}
+
+.bi-caret-down-fill_Session_Review {
+    flex-shrink: 0;
+    width: 8px;
+    height: 8px;
+    position: relative;
+    overflow: visible;
+}
+
+.entries_Session_Review {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+}
+
+.frame-162_Session_Review {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.previous_Session_Review {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+}
+
+.frame-152_Session_Review {
+    background: #009146;
+    border-radius: 100px;
+    padding: 8px 9px 8px 9px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+.frame-163_Session_Review {
+    background: #e0e0e0;
+    border-radius: 100px;
+    padding: 8px 9px 8px 9px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+._2_Session_Review {
+    color: #1f1f26;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    position: relative;
+    width: 13px;
+    height: 15px;
+}
+
+.frame-17_Session_Review {
+    background: #e0e0e0;
+    border-radius: 100px;
+    padding: 8px 9px 8px 9px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    aspect-ratio: 1;
+}
+
+._32_Session_Review {
+    color: #1f1f26;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    position: relative;
+    width: 13px;
+    height: 15px;
+}
+
+.next_Session_Review {
+    color: #1f1f26;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+}
+
+@media (max-width:767px) {
+    .SessionReview_cover_Session_Review {
+        padding: 20px;
+    }
+
+    .frame-1707480824_Session_Review,
+    .frame-1707480336_Session_Review {
+        display: none;
+    }
+
+    .frame-1707480722_filter_Session_Review {
+        background: #ffffff;
+        border-radius: 32px;
+        border-style: solid;
+        border-color: #dcdde2;
+        border-width: 1px;
+        padding: 0px 20px 0px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-shrink: 0;
+        height: 44px;
+        position: relative;
+        margin: 16px 0px;
+    }
+
+    .frame-1707480849_Session_Review {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex: 1;
+        position: relative;
+    }
+
+    .frame-1707480848_Session_Review {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .angle-small-down-3-1_Session_Review {
+        flex-shrink: 0;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        overflow: hidden;
+        aspect-ratio: 1;
+    }
+
+    .settings-sliders-1_Session_Review {
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: 50%;
+        translate: -50% -50%;
+        top: 50%;
+        overflow: visible;
+        aspect-ratio: 1;
+    }
+
+    .filter-questions_Session_Review {
+        color: #6f6f6f;
+        text-align: left;
+        font-family: "Poppins-Medium", sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 500;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        -webkit-text-stroke: 1px transparent;
+    }
+
+    .angle-small-down-3-12_Session_Review {
+        flex-shrink: 0;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        overflow: visible;
+        aspect-ratio: 1;
+    }
+
+    .frame-1707480841_Session_Review {
+        width: 100%;
+    }
+
+    .frame-1707480835_Session_Review {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .group-1707480483_Session_Review {
+        flex-shrink: 0;
+        width: 100%;
+        height: 78px;
+        position: static;
+    }
+
+    .frame-1707480836_Session_Review {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        gap: 0px;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .previous_Session_Review,
+    .next_Session_Review {
+        display: none;
+    }
+}
